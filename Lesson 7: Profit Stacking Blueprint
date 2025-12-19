@@ -1,0 +1,353 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:20px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+  .fio-divider{height:10px}
+  .fio-tablewrap{overflow:auto}
+  .fio-table{width:100%;border-collapse:collapse;font-size:14px}
+  .fio-table th{padding:10px;text-align:left;border-bottom:1px solid rgba(0,0,0,.12)}
+  .fio-table td{padding:10px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+  .fio-table tr:last-child td{border-bottom:0}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- Video (keeps your ScreenPal ID) -->
+  <div class="fio-video">
+    <div class="sp-embed-player" data-id="cTnqfMnh5FN">
+      <script src="https://go.screenpal.com/player/appearance/cTnqfMnh5FN"></script>
+      <iframe
+        scrolling="no"
+        src="https://go.screenpal.com/player/cTnqfMnh5FN?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Profit Stacking Blueprint Trade Guide</h1>
+    <p class="fio-p">
+      Welcome to the <strong>Profit Stacking Blueprint</strong> — a structured, repeatable process designed to help you build
+      consistency over time (not “constant trading,” not chasing).
+    </p>
+
+    <ol class="fio-list">
+      <li>Watch the video above (fast overview).</li>
+      <li>Read the “Thursday Rule” + “Trade Structure” sections below.</li>
+      <li>Set your position size before placing any trade.</li>
+      <li>If you’re unsure, post your setup in the Community Chat before entering.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      Note: performance stats can change over time. The “edge” here is discipline + risk control + repeatability — not a guarantee.
+    </p>
+  </div>
+
+  <!-- Backtest Image (keeps yours) -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Backtest Snapshot</h2>
+    <img
+      src="https://freedomincomeoptions.com/wp-content/uploads/2025/03/image.png"
+      alt="Profit Stacking Blueprint backtest snapshot"
+      style="width:100%;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);" />
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      We trade this with strict risk management. No single trade should put your account in danger.
+    </p>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Nothing here is a recommendation to buy or sell securities.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results or backtests do not predict future performance.</li>
+      <li><strong>You are responsible.</strong> You control sizing, entries, and exits.</li>
+    </ul>
+  </div>
+
+  <!-- Risk Management -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Risk Management Plan (Read This Twice)</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Objectives</h3>
+        <ul class="fio-list">
+          <li>Preserve capital while allowing for growth potential.</li>
+          <li>Limit drawdowns so your account can survive normal losing streaks.</li>
+          <li>Stay disciplined by following the rules (no “revenge trades”).</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Position Sizing (Simple Rule)</h3>
+        <p class="fio-p">
+          Risk per trade should be a small slice of your account. Your original range was <strong>2%–10%</strong>.
+          For most members, a safer default is:
+        </p>
+        <ul class="fio-list">
+          <li><strong>Beginner:</strong> 2%–3% risk per trade</li>
+          <li><strong>Intermediate:</strong> 3%–5% risk per trade</li>
+          <li><strong>Advanced:</strong> 5%+ only if you understand drawdowns and can handle them</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted">
+          “Risk” here means the maximum you’re willing to lose on the spread (what you paid for it).
+        </p>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Stop-Loss Strategy</h3>
+        <p class="fio-p">
+          For this blueprint, assume the <strong>full debit paid</strong> can be lost. That’s why sizing stays small.
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Portfolio Limits</h3>
+        <ul class="fio-list">
+          <li>Avoid putting all capital into one ticker.</li>
+          <li>Focus on: <strong>SPY, QQQ, IWM, DIA</strong>.</li>
+          <li>Suggested cap: <strong>no more than 5 active spreads</strong> at one time.</li>
+          <li>Always track total open risk across trades.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Weekly Review (Thursday)</h3>
+      <ul class="fio-list">
+        <li>Review open trades each <strong>Thursday before market close</strong>.</li>
+        <li>If a trade is underperforming, decide: close early vs. let it play out (based on the plan, not emotions).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Key Reminders -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Key Reminders</h2>
+    <ul class="fio-list">
+      <li>This is <strong>not</strong> an active day-trading strategy.</li>
+      <li>We are not “finding trades” — we are executing a structured plan.</li>
+      <li>Market timing is not the goal. Consistency is.</li>
+    </ul>
+  </div>
+
+  <!-- Visualization image (keeps yours) -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Trade Strategy Visualization</h2>
+    <img
+      src="https://freedomincomeoptions.com/wp-content/uploads/2025/03/image-1-1024x577.png"
+      alt="Bull call spread visualization for Profit Stacking Blueprint"
+      style="width:100%;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);" />
+  </div>
+
+  <!-- Steps -->
+  <div class="fio-card">
+    <h2 class="fio-h2">The Mechanical Steps</h2>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 1: Which Assets Do We Trade?</h3>
+      <p class="fio-p">We only apply this strategy to:</p>
+      <ul class="fio-list">
+        <li><strong>SPY</strong></li>
+        <li><strong>QQQ</strong></li>
+        <li><strong>IWM</strong></li>
+        <li><strong>DIA</strong></li>
+      </ul>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 2: Get the Trade Details (Thursday)</h3>
+      <p class="fio-p">
+        Each Thursday, check the Telegram group and your email for the trade details.
+        Target delivery time is around <strong>3:15 PM EST</strong> (about 45 minutes before market close).
+      </p>
+
+      <p class="fio-p"><strong>How the ticker is chosen:</strong></p>
+      <ul class="fio-list">
+        <li>Review the past 5 days of SPY, QQQ, IWM, and DIA.</li>
+        <li>Identify the strongest performer.</li>
+        <li>Build the trade on that ticker.</li>
+      </ul>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 3: The Thursday Rule</h3>
+      <ol class="fio-list">
+        <li>Set up your trades.</li>
+        <li>Ignore whether the market is up or down that day.</li>
+        <li>Remain consistent with the strategy.</li>
+        <li>Place your profit-target order (see below).</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Trade Structure -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Trade Structure</h2>
+    <p class="fio-p">We <strong>always</strong> use a <strong>bull call spread</strong>:</p>
+    <ul class="fio-list">
+      <li>Buy a call at one strike, and sell a call at a higher strike (same expiration).</li>
+      <li>Max profit happens if price finishes above both strikes at expiration.</li>
+      <li>Max loss is limited to the <strong>debit paid</strong> to enter the spread.</li>
+    </ul>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Expiration Date</h3>
+        <p class="fio-p">We select an expiration closest to <strong>~30 days out</strong> because it balances:</p>
+        <ol class="fio-list">
+          <li>Time for the market to move.</li>
+          <li>Reasonable option pricing.</li>
+        </ol>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Strike Prices</h3>
+        <ul class="fio-list">
+          <li>Choose the <strong>closest spread above</strong> current price.</li>
+          <li><strong>Example:</strong> If price is $99.99, choose $100 / $101</li>
+          <li><strong>Buy to Open</strong> the $100 call</li>
+          <li><strong>Sell to Open</strong> the $101 call</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profit Target -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Profit Target</h2>
+    <p class="fio-p">
+      A profit target helps you avoid active management and improves consistency.
+      The blueprint uses a target of <strong>25% ROI</strong> on the cost of the spread.
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">How It Works</h3>
+        <ol class="fio-list">
+          <li>Calculate a <strong>25% gain</strong> on what you paid.</li>
+          <li>Place a <strong>GTC limit order</strong> to close the spread at that profit.</li>
+          <li>Let it work until it hits or expires.</li>
+        </ol>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Example</h3>
+        <ul class="fio-list">
+          <li><strong>Cost (debit) to open:</strong> $0.59</li>
+          <li><strong>25% gain:</strong> $0.59 × 0.25 = $0.1475</li>
+          <li><strong>Target profit value:</strong> $0.59 + $0.1475 ≈ <strong>$0.74</strong></li>
+          <li><strong>How to set the order:</strong> place a <strong>GTC limit</strong> to <strong>sell to close</strong> the spread at <strong>$0.74</strong> (platform wording may vary)</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted">
+          Important: bull call spreads are typically opened for a <strong>debit</strong>. Taking profit usually means closing for a <strong>higher debit value</strong> than you paid.
+          If your broker uses different wording, ask in the community and include a screenshot.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Summary of Steps</h2>
+    <ol class="fio-list">
+      <li>Get the trade details from Telegram.</li>
+      <li>On Thursday, open your trading platform.</li>
+      <li>Set the trade with: bull call spread, ~30 DTE, closest strikes above price, and a GTC profit target.</li>
+      <li>Repeat every Thursday with consistent sizing.</li>
+    </ol>
+    <p class="fio-p"><strong>Goal:</strong> stack trades consistently and efficiently — without emotional decision-making.</p>
+  </div>
+
+  <!-- Support -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Ticker (SPY/QQQ/IWM/DIA)</li>
+          <li>Expiration date</li>
+          <li>Strikes (buy strike / sell strike)</li>
+          <li>Debit paid to open</li>
+          <li>What you’re trying to do (open / set profit target / close)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note">
+      Email support: <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a>
+      <span class="fio-muted">(typical response time: 24–48 hours weekdays)</span>
+    </p>
+  </div>
+
+  <!-- Close -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Execute the Plan</h2>
+    <p class="fio-p">
+      This approach removes emotional decision-making and helps you build a repeatable weekly routine.
+      Trade smart, stay consistent, and keep risk controlled.
+    </p>
+    <p class="fio-p"><strong>Freedom Income Options Team</strong></p>
+  </div>
+
+</div>
