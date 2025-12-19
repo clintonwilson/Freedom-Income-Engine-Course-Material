@@ -1,0 +1,144 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h3{margin:0 0 10px 0;font-size:20px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-btn.primary{border-color:rgba(0,0,0,.18);font-weight:700}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video-inner{position:relative;width:100%;padding-top:56.25%;height:0}
+  .fio-video-inner iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+
+  /* “Cool” callout + steps */
+  .fio-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
+  .fio-step{border:1px solid var(--fio-border);border-radius:14px;padding:14px;background:#fff}
+  .fio-badge{display:inline-flex;align-items:center;gap:8px;font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid rgba(0,0,0,.12);opacity:.9;margin-bottom:10px}
+  .fio-kicker{font-size:12px;letter-spacing:.04em;text-transform:uppercase;opacity:.7;margin:0 0 6px 0}
+  .fio-big{font-size:26px;line-height:1.15;margin:0 0 10px 0}
+  .fio-muted{opacity:.85}
+
+  /* Roadmap mini “timeline” */
+  .fio-timeline{display:grid;gap:10px;margin-top:12px}
+  .fio-node{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--fio-border);border-radius:14px;padding:12px;background:#fff}
+  .fio-dot{width:10px;height:10px;border-radius:999px;border:2px solid rgba(0,0,0,.35);margin-top:6px;flex:0 0 auto}
+  .fio-node h4{margin:0 0 4px 0;font-size:14px;line-height:1.25}
+  .fio-node p{margin:0;font-size:13px;line-height:1.45;opacity:.85}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- Intro Card -->
+  <div class="fio-card">
+    <p class="fio-kicker">Lesson</p>
+    <h3 class="fio-big">How to Use the Road Map</h3>
+    <p class="fio-p">If your goal is to replace your paycheck with options income, you need more than “education” — you need a <strong>clear plan</strong> with steps, timelines, and a weekly routine you can actually follow.</p>
+    <p class="fio-p fio-muted">This lesson shows you how to use your Road Map so you always know what to focus on next.</p>
+  </div>
+
+  <!-- Video -->
+  <div class="fio-card">
+    <div class="fio-video">
+      <div class="fio-video-inner">
+        <iframe
+          src="https://go.screenpal.com/player/cTe605n1GIO?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+          allowfullscreen="true"
+          scrolling="no"></iframe>
+      </div>
+    </div>
+
+    <div class="fio-steps">
+      <div class="fio-step">
+        <div class="fio-badge">✅ Step 1</div>
+        <h4 class="fio-h4">Watch the walkthrough</h4>
+        <p class="fio-p fio-muted">Get the big picture first. You’ll understand what each section means and how to use it weekly.</p>
+      </div>
+
+      <div class="fio-step">
+        <div class="fio-badge">📌 Step 2</div>
+        <h4 class="fio-h4">Set your target</h4>
+        <p class="fio-p fio-muted">Decide the monthly income number you’re aiming for — then the Road Map breaks the path into steps.</p>
+      </div>
+
+      <div class="fio-step">
+        <div class="fio-badge">🧱 Step 3</div>
+        <h4 class="fio-h4">Execute the weekly rhythm</h4>
+        <p class="fio-p fio-muted">Follow the weekly calendar: scan → place trades → check positions → log results → reset.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Roadmap CTA Card -->
+  <div class="fio-card fio-soft">
+    <h3 class="fio-h3">The Road Map to Replacing Your Income</h3>
+    <p class="fio-p">Your Road Map is a personal plan that helps you answer three questions:</p>
+    <ul class="fio-list">
+      <li><strong>Where am I now?</strong> (account size + comfort level)</li>
+      <li><strong>Where am I going?</strong> (income target)</li>
+      <li><strong>What do I do next?</strong> (weekly actions + milestones)</li>
+    </ul>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn primary" href="https://freedomincomeoptions.com/your-roadmap-replace-your-paycheck/" target="_blank" rel="noreferrer noopener">
+        Get Your Personal Road Map
+      </a>
+      <a class="fio-btn" href="https://freedomincomeoptions.com/your-roadmap-replace-your-paycheck/" target="_blank" rel="noreferrer noopener">
+        Open in New Tab
+      </a>
+    </div>
+  </div>
+
+  <!-- “Cool” Mini Timeline (stands out + reinforces system) -->
+  <div class="fio-card">
+    <h3 class="fio-h3">How to Use the Road Map (Simple Flow)</h3>
+    <p class="fio-p fio-muted">Think of your Road Map like GPS. It doesn’t guarantee the trip — it keeps you from getting lost.</p>
+
+    <div class="fio-timeline">
+      <div class="fio-node">
+        <div class="fio-dot"></div>
+        <div>
+          <h4>1) Set the goal</h4>
+          <p>Pick an income target and a realistic timeline. Clarity beats motivation.</p>
+        </div>
+      </div>
+
+      <div class="fio-node">
+        <div class="fio-dot"></div>
+        <div>
+          <h4>2) Build the weekly habit</h4>
+          <p>Execute the system weekly. Progress comes from repetition, not intensity.</p>
+        </div>
+      </div>
+
+      <div class="fio-node">
+        <div class="fio-dot"></div>
+        <div>
+          <h4>3) Track results + adjust</h4>
+          <p>Log trades, review performance, and refine execution — without overtrading.</p>
+        </div>
+      </div>
+
+      <div class="fio-node">
+        <div class="fio-dot"></div>
+        <div>
+          <h4>4) Stack consistency</h4>
+          <p>Small wins compound. Over time, your Road Map becomes your income replacement plan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
