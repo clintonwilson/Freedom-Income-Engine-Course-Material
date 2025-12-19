@@ -1,0 +1,251 @@
+<div style="max-width:920px; margin:0 auto; padding:6px 0; font-family:inherit;">
+
+  <!-- Responsive Video -->
+  <div style="border-radius:16px; overflow:hidden; border:1px solid rgba(0,0,0,.10); background:#000;">
+    <div style="position:relative; width:100%; padding-top:56.25%; height:0;">
+      <iframe
+        src="https://go.screenpal.com/player/cTeFqlnij54?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+        allowfullscreen="true"
+        scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 8px; font-size:22px; line-height:1.2;">Quick Start (3 Minutes)</h2>
+    <ol style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+      <li>Watch the video above (overview + example).</li>
+      <li>Read the “Decision Box” below (it tells you which strategy fits your goal).</li>
+      <li>If anything is unclear, post your setup (ticker + strikes + expiration) in the Community Chat.</li>
+    </ol>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+      <a href="https://t.me/+8xk4f0TXHpFlYmUx"
+         style="padding:10px 14px; border-radius:12px; border:1px solid rgba(0,0,0,.12); text-decoration:none;">
+        Join Casey’s Channel
+      </a>
+      <a href="https://t.me/+NPYR40enF_UzYWYx"
+         style="padding:10px 14px; border-radius:12px; border:1px solid rgba(0,0,0,.12); text-decoration:none;">
+        Join Community Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.12); background:rgba(0,0,0,.03);">
+    <p style="margin:0 0 8px; font-size:15px;"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+      <li><strong>Educational purposes only.</strong> Nothing here is financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options can result in losses and are not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past examples do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- Title + Definition -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h1 style="margin:0 0 10px 0; font-size:24px; line-height:1.2;">Credit Spreads vs Cash-Secured Puts</h1>
+
+    <p style="margin:0 0 10px 0; font-size:15px; line-height:1.6;">
+      Both <strong>credit spreads</strong> and <strong>cash-secured puts (CSPs)</strong> are income strategies.
+      The difference is simple:
+      <strong>spreads</strong> have <strong>defined max loss</strong>, while <strong>CSPs</strong> have <strong>stock ownership risk</strong>
+      (you may be required to buy 100 shares).
+    </p>
+
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      Use this lesson to understand what you’re committing to <strong>before</strong> you place a trade — especially
+      <strong>capital required</strong> and <strong>max risk</strong>.
+    </p>
+  </div>
+
+  <!-- Decision Box (new) -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.12); background:rgba(0,0,0,.03);">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Decision Box: Which One Should You Use?</h3>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 6px 0; font-size:16px;">Choose a Credit Spread if…</h4>
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li>You want <strong>defined risk</strong> (max loss is capped).</li>
+          <li>You want to use <strong>less capital</strong> per trade.</li>
+          <li>You are not trying to own the stock.</li>
+        </ul>
+      </div>
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 6px 0; font-size:16px;">Choose a Cash-Secured Put if…</h4>
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li>You’re <strong>willing to buy 100 shares</strong> if assigned.</li>
+          <li>You want to <strong>buy the stock at a discount</strong>.</li>
+          <li>You’re okay tying up more capital (cash collateral).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Side-by-Side Cards -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Two Strategies, Two Different Intentions</h3>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+
+      <!-- Credit Spread -->
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px; line-height:1.25;">1) Credit Spread (Defined-Risk Income)</h4>
+
+        <p style="margin:0 0 10px 0; font-size:14px; line-height:1.55;">
+          A <strong>credit spread</strong> means you sell one option and buy another for protection
+          (same expiration, different strikes). You collect premium upfront, and your <strong>maximum loss is capped</strong>.
+        </p>
+
+        <p style="margin:0 0 10px 0; font-size:14px; line-height:1.55;">
+          <strong>Example (Bull Put Spread):</strong><br/>
+          Sell $12 put @ $0.93<br/>
+          Buy $10 put @ $0.24<br/>
+          <strong>Net credit:</strong> $0.69 ($69 per contract)
+        </p>
+
+        <div style="padding:12px; border-radius:14px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+          <p style="margin:0; font-size:14px; line-height:1.55;">
+            <strong>Max Profit:</strong> Credit received = <strong>$69</strong><br/>
+            <strong>Max Loss:</strong> (Width − Credit) × 100<br/>
+            = (($12 − $10) − $0.69) × 100 = <strong>$131</strong>
+          </p>
+        </div>
+
+        <div style="height:10px;"></div>
+
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li><strong>Capital required:</strong> typically the max loss amount (broker dependent)</li>
+          <li><strong>Best for:</strong> income with defined risk</li>
+        </ul>
+      </div>
+
+      <!-- CSP -->
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px; line-height:1.25;">2) Cash-Secured Put (Income + Potential Shares)</h4>
+
+        <p style="margin:0 0 10px 0; font-size:14px; line-height:1.55;">
+          A <strong>cash-secured put</strong> means you sell a put option and hold enough cash to buy 100 shares if assigned.
+          This is best when you are <strong>willing to own the stock</strong>.
+        </p>
+
+        <p style="margin:0 0 10px 0; font-size:14px; line-height:1.55;">
+          <strong>Example:</strong><br/>
+          Sell $12 put @ $0.93<br/>
+          Hold <strong>$1,200</strong> cash collateral
+        </p>
+
+        <div style="padding:12px; border-radius:14px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+          <p style="margin:0; font-size:14px; line-height:1.55;">
+            <strong>Premium received:</strong> $0.93 × 100 = <strong>$93</strong><br/>
+            <strong>Effective share cost basis (if assigned):</strong> $12 − $0.93 = <strong>$11.07</strong><br/>
+            <strong>Main risk:</strong> if the stock falls significantly after assignment
+          </p>
+        </div>
+
+        <div style="height:10px;"></div>
+
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li><strong>Capital required:</strong> strike × 100 (cash held)</li>
+          <li><strong>Best for:</strong> getting paid to potentially buy shares at a discount</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div style="height:12px;"></div>
+
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      The “best” choice depends on your goal: if you want <strong>defined risk</strong>, choose spreads.
+      If you want <strong>to buy shares at a discount</strong>, consider cash-secured puts.
+    </p>
+  </div>
+
+  <!-- Quick Comparison -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Quick Comparison</h3>
+
+    <div style="overflow:auto;">
+      <table style="width:100%; border-collapse:collapse; font-size:14px;">
+        <thead>
+          <tr>
+            <th style="text-align:left; padding:10px; border-bottom:1px solid rgba(0,0,0,.12);">Feature</th>
+            <th style="text-align:left; padding:10px; border-bottom:1px solid rgba(0,0,0,.12);">Credit Spread</th>
+            <th style="text-align:left; padding:10px; border-bottom:1px solid rgba(0,0,0,.12);">Cash-Secured Put</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);"><strong>Max Risk</strong></td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Defined (capped)</td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Stock downside after assignment</td>
+          </tr>
+          <tr>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);"><strong>Capital Needed</strong></td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Lower</td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Higher (cash to buy 100 shares)</td>
+          </tr>
+          <tr>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);"><strong>Goal</strong></td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Income with protection</td>
+            <td style="padding:10px; border-bottom:1px solid rgba(0,0,0,.08);">Income + possible shares</td>
+          </tr>
+          <tr>
+            <td style="padding:10px;"><strong>Best For</strong></td>
+            <td style="padding:10px;">Members who want structure + defined risk</td>
+            <td style="padding:10px;">Members comfortable owning shares</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Support -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Support & Community</h3>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px;">Telegram Links</h4>
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px;">Ask for Help (Fast)</h4>
+        <p style="margin:0 0 8px 0; font-size:14px; line-height:1.55;">Include:</p>
+        <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+          <li>Ticker</li>
+          <li>Expiration date</li>
+          <li>Strikes (both legs if spread)</li>
+          <li>Credit received</li>
+          <li>What you want to do (open / manage / close)</li>
+        </ul>
+      </div>
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px;">Email Support</h4>
+        <p style="margin:0; font-size:14px; line-height:1.55;">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a><br/>
+          <span style="opacity:.85;">Typical response time: 24–48 hours (weekdays)</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Next Step -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 8px 0; font-size:20px; line-height:1.25;">Next Step</h3>
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      Continue to the next lesson to learn <strong>how we choose trades</strong>, how we manage risk, and how to stay consistent.
+    </p>
+  </div>
+
+</div>
