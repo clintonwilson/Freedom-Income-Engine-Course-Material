@@ -1,0 +1,207 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-divider{height:10px}
+
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+
+  /* INLINE ICONS ONLY (NO EMOJIS) */
+  .fio-check,.fio-arrow{
+    display:inline-flex;
+    width:16px;height:16px;
+    transform:translateY(1px);
+    flex:0 0 auto;
+  }
+  .fio-check svg,.fio-arrow svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <div class="sp-embed-player" data-id="cTeonkn1SAa">
+      <script src="https://go.screenpal.com/player/appearance/cTeonkn1SAa"></script>
+      <iframe
+        scrolling="no"
+        src="https://go.screenpal.com/player/cTeonkn1SAa?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the video above and write down the 3 criteria you’ll use every time.</li>
+      <li>Pick 3–5 large-cap candidates and check the weekly chart for support.</li>
+      <li>If you find a clean setup, price a cash-secured put 30 days out below support.</li>
+      <li>Post a screenshot in the Community Chat if you want confirmation before entering.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Casey’s Channel
+      </a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Community Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Finding Strong Companies at 52-Week Lows</h1>
+    <p class="fio-p">
+      A simple way to find higher-probability setups is to focus on <strong>fundamentally strong large-cap stocks</strong>
+      that hit <strong>52-week lows</strong> and start to recover near a major support zone.
+    </p>
+    <p class="fio-p fio-note fio-muted">
+      This works best when you stay selective: strong companies, clean support, and defined-risk entries.
+    </p>
+  </div>
+
+  <!-- CRITERIA -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Criteria for 52-Week Low Stocks</h2>
+    <ul class="fio-list">
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Must be a <strong>large-cap stock</strong> with a strong balance sheet and a real competitive advantage.
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Price hit a <strong>52-week low</strong> and is starting to recover with improving volume.
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Weekly RSI is between <strong>30–50</strong>, suggesting downside pressure may be fading.
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        The company has a <strong>history of recovering</strong> from drawdowns (review multi-year trends).
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Trading near a <strong>major support zone</strong> (historical low, 50-week EMA, or 200-week EMA).
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Earnings and guidance are <strong>stable or improving</strong> despite the price decline.
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Ideal candidates are <strong>blue-chips, industry leaders, or strong dividend payers</strong>.
+      </li>
+    </ul>
+  </div>
+
+  <!-- HOW TO TRADE -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">How to Trade 52-Week Low Stocks with Cash-Secured Puts</h2>
+
+    <ol class="fio-list">
+      <li><strong>Identify</strong> fundamentally strong stocks at or near 52-week lows using a screener.</li>
+      <li><strong>Confirm</strong> a clean support level on the <strong>weekly chart</strong>.</li>
+      <li><strong>Sell</strong> a cash-secured put <strong>below support / below the recent low</strong> (defined entry plan).</li>
+      <li><strong>Choose</strong> an expiration around <strong>30 days out</strong> to allow stabilization.</li>
+      <li><strong>Manage risk</strong>: exit early if the stock breaks support or fundamentals deteriorate.</li>
+    </ol>
+
+    <p class="fio-p fio-note fio-muted">
+      Keep it mechanical. The goal is not to predict the bottom — it’s to structure a high-probability income trade with rules.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Email Support</h3>
+        <p class="fio-p fio-note">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a><br/>
+          <span class="fio-muted">Typical response time: 24–48 hours (weekdays)</span>
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>The ticker</li>
+          <li>Weekly chart screenshot (showing support)</li>
+          <li>Your proposed put strike + expiration (~30 DTE)</li>
+          <li>What you want to do (open / manage / close)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
