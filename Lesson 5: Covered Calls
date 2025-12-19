@@ -1,0 +1,328 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h2{margin:0 0 10px 0;font-size:24px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:20px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video-inner{position:relative;width:100%;padding-top:56.25%;height:0}
+  .fio-video-inner iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-divider{height:12px}
+  .fio-chip{display:inline-block;font-size:12px;padding:3px 8px;border-radius:999px;border:1px solid rgba(0,0,0,.12);opacity:.9}
+
+  /* Table */
+  .fio-tablewrap{overflow:auto}
+  .fio-table{width:100%;border-collapse:collapse;font-size:14px}
+  .fio-table th{padding:10px;text-align:left;border-bottom:1px solid rgba(0,0,0,.12)}
+  .fio-table td{padding:10px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+  .fio-table tr:last-child td{border-bottom:0}
+
+  /* Support grid */
+  .fio-help{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- Video -->
+  <div class="fio-video">
+    <div class="fio-video-inner">
+      <iframe
+        src="https://player.vimeo.com/video/1108886669?h=&title=0&byline=0&portrait=0"
+        allowfullscreen="true"
+        scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Covered Calls (Start Here)</h2>
+    <p class="fio-p">
+      This page teaches the <strong>covered call strategy</strong> in plain English — what it is, when it works,
+      and how to execute it without overcomplicating anything.
+    </p>
+    <ol class="fio-list">
+      <li>Watch the video above (overview + example).</li>
+      <li>Save the 5-step checklist below.</li>
+      <li>If you want feedback, post your ticker + strike + expiration in the Community Chat.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      The goal is consistency — not trying to “win big” in one trade. We’re stacking skill and income <strong>1% at a time</strong>.
+    </p>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+      <li><strong>You are responsible.</strong> You control sizing, entries, and exits.</li>
+    </ul>
+  </div>
+
+  <!-- SEO Intro -->
+  <div class="fio-card">
+    <h3 class="fio-h3">What Is a Covered Call?</h3>
+    <p class="fio-p">
+      A <strong>covered call</strong> is an options income strategy where you <strong>sell a call option</strong> against
+      <strong>100 shares</strong> of stock you already own. In exchange, you collect <strong>premium</strong> (income).
+    </p>
+    <p class="fio-p">
+      In simple terms: you’re getting paid for agreeing to sell your shares at a specific price (the <strong>strike</strong>)
+      by a specific date (the <strong>expiration</strong>).
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Best Market Condition <span class="fio-chip">Neutral → Slightly Bullish</span></h4>
+        <p class="fio-p fio-note">Covered calls work best when you expect the stock to stay flat or rise slowly.</p>
+      </div>
+      <div class="fio-mini">
+        <h4 class="fio-h4">The Trade-Off <span class="fio-chip">Income vs Upside</span></h4>
+        <p class="fio-p fio-note">You generate income, but you cap upside above your strike price.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- How it Works -->
+  <div class="fio-card">
+    <h3 class="fio-h3">How Covered Calls Work (5-Step Checklist)</h3>
+
+    <div class="fio-grid2">
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Step 1: Own 100 Shares</h4>
+        <ul class="fio-list fio-note">
+          <li>Pick a stock/ETF you’re comfortable holding.</li>
+          <li>Prefer liquid names (tight bid/ask spreads).</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Step 2: Choose a Strike (Delta Guide)</h4>
+        <p class="fio-p fio-note">
+          A common starting point is around <strong>0.30 delta</strong> — it balances decent premium with a lower chance of assignment.
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Step 3: Pick Expiration (DTE)</h4>
+        <ul class="fio-list fio-note">
+          <li><strong>7–10 DTE:</strong> faster cycles, smaller premium</li>
+          <li><strong>21–60 DTE:</strong> bigger premium, fewer adjustments</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Step 4: Sell the Call</h4>
+        <p class="fio-p fio-note">
+          Premium is credited immediately. That premium can reduce your effective cost basis on the shares.
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Step 5: Two Outcomes</h4>
+        <div class="fio-tablewrap">
+          <table class="fio-table" aria-label="Covered call outcomes table">
+            <thead>
+              <tr>
+                <th>If stock stays below strike</th>
+                <th>If stock goes above strike</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Option expires (or becomes cheap to buy back)</td>
+                <td>Shares may be assigned (sold at the strike)</td>
+              </tr>
+              <tr>
+                <td>You keep shares + premium</td>
+                <td>You keep premium + realize stock gain up to strike</td>
+              </tr>
+              <tr>
+                <td>You can sell another call next cycle</td>
+                <td>Your upside is capped above the strike</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fio-p fio-note fio-muted" style="margin-top:10px;">
+          Key rule: choose a strike you’d genuinely be okay selling at.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Profit Target -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Profit Target (Why We Don’t Always Hold to Expiration)</h3>
+    <p class="fio-p">
+      Many traders hold covered calls until expiration — but a cleaner approach is using a
+      <strong>profit target</strong> (often <strong>50–70%</strong> of max premium) to reduce surprise risk and lock gains sooner.
+    </p>
+    <ul class="fio-list">
+      <li><strong>Lock gains earlier</strong> instead of waiting for the last dollars.</li>
+      <li><strong>Theta (time decay)</strong> often helps you hit targets without a big move.</li>
+      <li><strong>Recycle trades sooner</strong> to stack premium over time.</li>
+    </ul>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <p class="fio-p"><strong>Simple Example</strong></p>
+      <p class="fio-p fio-note">
+        You sell a call for $1.00 ($100). If it drops to $0.50, you can buy it back and keep ~$50 profit — then sell another call to keep stacking income.
+      </p>
+    </div>
+  </div>
+
+  <!-- When to Use -->
+  <div class="fio-card">
+    <h3 class="fio-h3">When Covered Calls Make Sense</h3>
+    <ul class="fio-list">
+      <li>You already own shares and want additional income.</li>
+      <li>You’re <strong>neutral to slightly bullish</strong> short-term.</li>
+      <li>You want to reduce cost basis (premium offsets some downside).</li>
+      <li>You’re okay selling shares at your strike price.</li>
+    </ul>
+  </div>
+
+  <!-- Example -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Covered Call Example (Simple Mechanics)</h3>
+    <p class="fio-p">
+      Here’s the structure (numbers change based on the options chain — focus on the mechanics):
+    </p>
+    <ul class="fio-list">
+      <li><strong>You own:</strong> 100 shares</li>
+      <li><strong>You sell:</strong> 1 call at a chosen strike + expiration</li>
+      <li><strong>You collect:</strong> premium (income)</li>
+    </ul>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Outcome A: Stock stays below strike</h4>
+        <ul class="fio-list fio-note">
+          <li>You keep your shares</li>
+          <li>You keep the premium</li>
+          <li>You can sell another call next cycle</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Outcome B: Stock goes above strike</h4>
+        <ul class="fio-list fio-note">
+          <li>Shares may be assigned (sold at strike)</li>
+          <li>You still keep the premium</li>
+          <li>You’re capped above the strike (by design)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <p class="fio-p">
+      Covered calls are “boring” on purpose — the goal is repeatable income and cleaner decision-making.
+    </p>
+  </div>
+
+  <!-- Infographic -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Covered Calls Infographic</h3>
+    <img
+      src="https://freedomincomeoptions.com/wp-content/uploads/2025/03/covered-call-info-graphic.png"
+      alt="Covered call strategy infographic showing covered call steps, outcomes, and profit target"
+      style="width:100%;height:auto;border-radius:16px;border:1px solid rgba(0,0,0,.10);" />
+  </div>
+
+  <!-- Support -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Support & Community</h3>
+
+    <div class="fio-help">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Telegram Links</h4>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel (trade ideas + explanations):</strong><br/>
+            <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a>
+          </li>
+          <li style="margin-top:8px;"><strong>Community Chat (questions + discussion):</strong><br/>
+            <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">How to Ask for Help (So We Can Answer Fast)</h4>
+        <p class="fio-p fio-note">Include these details in Telegram or email:</p>
+        <ul class="fio-list fio-note">
+          <li>Ticker</li>
+          <li>Share count (confirm 100+)</li>
+          <li>Expiration date</li>
+          <li>Strike price</li>
+          <li>Premium received</li>
+          <li>Your goal (open / manage / close / roll)</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Email Support</h4>
+        <p class="fio-p fio-note">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a>
+        </p>
+        <p class="fio-p fio-note fio-muted">Typical response time: 24–48 hours (weekdays).</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Expectations -->
+  <div class="fio-card fio-soft">
+    <h3 class="fio-h3">Communication & Expectations</h3>
+    <ul class="fio-list fio-note">
+      <li>Primary communication happens in Telegram.</li>
+      <li>Trading results depend on discipline, risk control, and consistency.</li>
+      <li>This is a process-driven system — not a shortcut or guarantee.</li>
+    </ul>
+  </div>
+
+  <!-- Next Step -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Next Step</h3>
+    <p class="fio-p">
+      Continue to the next lesson to learn <strong>how we choose trades</strong>, how we manage risk, and how to stay consistent.
+    </p>
+  </div>
+
+</div>
