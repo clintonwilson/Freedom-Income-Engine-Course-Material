@@ -1,0 +1,357 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-divider{height:10px}
+
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+
+  figure.wp-block-image{margin:12px 0}
+  figure.wp-block-image img{
+    width:100%;
+    height:auto;
+    border:1px solid rgba(0,0,0,.10);
+    border-radius:16px;
+    display:block;
+  }
+
+  /* INLINE ICONS ONLY (NO EMOJIS) */
+  .fio-check,.fio-arrow{
+    display:inline-flex;
+    width:16px;height:16px;
+    transform:translateY(1px);
+    flex:0 0 auto;
+  }
+  .fio-check svg,.fio-arrow svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <div class="sp-embed-player" data-id="cTeoD6n1W2N">
+      <script src="https://go.screenpal.com/player/appearance/cTeoD6n1W2N"></script>
+      <iframe
+        scrolling="no"
+        src="https://go.screenpal.com/player/cTeoD6n1W2N?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the video above and follow along inside Finviz.</li>
+      <li>Start with the “General Screening Filters” (price, volume, market cap).</li>
+      <li>Add “Fundamental” filters (quality + stability), then “Technical” filters (trend + momentum).</li>
+      <li>Save your screen (optional), then bring 3–5 tickers to the Community Chat for feedback.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Casey’s Channel
+      </a>
+
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Community Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <div class="fio-card">
+    <h1 class="fio-h1">How to Use the Finviz Stock Screener</h1>
+    <p class="fio-p">
+      Finviz (short for <em>Financial Visualizations</em>) is a fast way to scan thousands of stocks using
+      <strong>descriptive</strong>, <strong>fundamental</strong>, and <strong>technical</strong> filters.
+      This lesson shows you how to build screens that surface better options setups without wasting time.
+    </p>
+    <p class="fio-p fio-note fio-muted">
+      Start here: <a href="https://finviz.com"><strong>finviz.com</strong></a>
+    </p>
+  </div>
+
+  <!-- STEP 1 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">1) Access the Screener</h2>
+    <ul class="fio-list">
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Go to <a href="https://finviz.com">finviz.com</a>
+      </li>
+      <li>
+        <span class="fio-check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Click the <strong>Screener</strong> tab at the top.
+      </li>
+    </ul>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGJteZVvB-6V72yUexa4iByMZDKyLv7QYgNVwDd-ZEHzDL26p9tTkE4eNb0aeTzv8Im-a4p1I732yEouZ95pO3MQyVJuVbqFxTrjhZetcNK2gjogkmRK-x5X4W4DUub4IRR2HW?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz homepage with Screener tab highlighted" />
+    </figure>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">2) Choose Your View</h2>
+    <p class="fio-p">Finviz has multiple “views” depending on what you want to analyze.</p>
+    <ul class="fio-list">
+      <li><strong>Overview:</strong> market cap, price, volume</li>
+      <li><strong>Valuation:</strong> P/E, EPS, growth metrics</li>
+      <li><strong>Ownership:</strong> insider + institutional ownership</li>
+      <li><strong>Performance:</strong> short/long-term performance</li>
+      <li><strong>Technical:</strong> moving averages, RSI, indicators</li>
+    </ul>
+    <p class="fio-p fio-note fio-muted">
+      Use the dropdown menu on the upper right to switch views.
+    </p>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe3NW_R0-j8gtbDRJQMFCX1qNfH4ZTQuZ1wtkcLLp7RhlbrwiRqOIT_mk7A08LjOqB4-Ba-a6PuLYpIU-iWf08EV6fEdbcOq4C65aoytFWKm6lRRua9jODSeiLH4zm5EP_EUJNekA?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz view selector dropdown" />
+    </figure>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">3) Apply Filters</h2>
+    <p class="fio-p">
+      Filters are under the menu and grouped into <strong>Descriptive</strong>, <strong>Fundamental</strong>, and <strong>Technical</strong>.
+      Click any dropdown, choose your criteria, and the results refresh automatically.
+    </p>
+
+    <ul class="fio-list">
+      <li><strong>Descriptive:</strong> sector, industry, country, market cap, price, IPO date</li>
+      <li><strong>Fundamental:</strong> P/E, EPS growth, dividend, ROE, debt/equity</li>
+      <li><strong>Technical:</strong> moving averages, RSI, patterns</li>
+    </ul>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZwSiVwgWrqFM_PMTbYoJnICXj_C890fb4-7CtllNDBImThrU-pTRuXarY-oP1MnTjANoSxvUrKxJAGW3t-UevdgJIWSt8aPH956UoL5bb7b4rqvqhpqTKhlQhhLzUbuvK4j_JIg?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz filter bar with descriptive, fundamental, technical categories" />
+    </figure>
+
+    <p class="fio-p"><strong>How to set a filter:</strong></p>
+    <ol class="fio-list">
+      <li>Click the dropdown under a parameter (example: <strong>Price</strong>).</li>
+      <li>Select the range you want (example: <strong>Over $10</strong>).</li>
+    </ol>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeX_JxAffeOtix2iFxg3cqCJOpFso4J4-_7XBuwHZpFEqSvx4QziPEufmdgzu2qkfcuehuIwzQr55qNritcU0wM-YswatvTbf9o37CCE5LvYa-hnKtvhTI5sAxCWTVIX4yfHJfu?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Example of selecting a filter dropdown in Finviz" />
+    </figure>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">4) Refine and Sort</h2>
+    <ul class="fio-list">
+      <li>Once filters are selected, Finviz refreshes results automatically.</li>
+      <li>To sort results, click any column header (Volume, Market Cap, P/E). Click again to reverse the sort.</li>
+    </ul>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcBcESjbL8YOtA0QiNBU5dXHEdonUIH9lH2H8EYYLrIUok5RUVpFM57DNpMtsBCBZs7O_P-pBiCTlf_QaRtpGPpF3ty1FhrbwAIvc_KvntkhEVbHLp1W2tCLGb9tXnykQQlDUSqnA?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz results table and sortable columns" />
+    </figure>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">5) Save Your Screen (Optional)</h2>
+    <ul class="fio-list">
+      <li>Create a free Finviz account (optional).</li>
+      <li>Click <strong>Save Screen</strong> near the bottom of the filter area (while logged in).</li>
+    </ul>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcO8v9dVrJeR0kBut6YykwxkHNhdGm6ZR2VOTd4EO31JOj4aX8xNFx7e3rtY_aIg25512bDImIF6onUvUEO2kwl7lXri-mLVLHNrK-7YWLSq6bV-jCovlCr8woa8yWbapp99OSSvQ?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz Save Screen button location" />
+    </figure>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">6) Additional Features</h2>
+    <ul class="fio-list">
+      <li><strong>Charts:</strong> hover over a ticker to see a quick pop-up chart.</li>
+      <li><strong>Detailed Quotes:</strong> click a ticker for fundamentals, news, insider activity, and more.</li>
+      <li><strong>Export:</strong> Finviz Elite can export screener results (paid feature).</li>
+    </ul>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEoOxKrTB9_OsEP5AO9HLjUgD6hxRYRrPeHYsYtGN4bzJ1BPVxAFr3fq3LSpEsPVY5KT1iAwO8sGnBngw53pgdY05UQyNAViOYrBT74k4sPVfUubk1VfFkKFjt9bb1ISFsyiEvNw?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz hover chart preview example" />
+    </figure>
+  </div>
+
+  <!-- PART 2 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Part 2: Filter Strategies</h2>
+    <p class="fio-p fio-note fio-muted">
+      Below are simple “plug-and-play” filter stacks you can copy. Start with General → add Fundamentals → finish with Technical.
+    </p>
+  </div>
+
+  <!-- GENERAL FILTERS -->
+  <div class="fio-card fio-soft">
+    <h3 class="fio-h3">1) General Screening Filters</h3>
+    <ol class="fio-list">
+      <li><strong>Price:</strong> Over $5 (or Over $10) — filters out penny-stock chaos.</li>
+      <li><strong>Average Volume:</strong> Over 500K (or Over 1M) — improves fills + reduces slippage.</li>
+      <li><strong>Market Cap:</strong> Over $300M (or Over $1B) — focuses on more stable companies.</li>
+    </ol>
+  </div>
+
+  <!-- FUNDAMENTAL FILTERS -->
+  <div class="fio-card">
+    <h3 class="fio-h3">2) Fundamental Filters</h3>
+    <ol class="fio-list">
+      <li><strong>P/E:</strong> Under 20–25 (avoids overpaying).</li>
+      <li><strong>PEG:</strong> Under 1.0–1.5 (growth at a reasonable price).</li>
+      <li><strong>EPS Growth (Past 5Y):</strong> Over 10–20% (proven growth).</li>
+      <li><strong>EPS Growth (Next 5Y):</strong> Over 10–15% (future potential).</li>
+      <li><strong>ROE:</strong> Over 10–15% (quality businesses).</li>
+      <li><strong>Debt/Equity:</strong> Under 0.5–1.0 (safer balance sheets).</li>
+      <li><strong>Profit Margin:</strong> Over 10% (pricing power).</li>
+    </ol>
+  </div>
+
+  <!-- TECHNICAL FILTERS -->
+  <div class="fio-card fio-soft">
+    <h3 class="fio-h3">3) Technical Filters</h3>
+    <ol class="fio-list">
+      <li><strong>Price above SMA50</strong> (shorter-term trend).</li>
+      <li><strong>Price above SMA200</strong> (long-term trend).</li>
+      <li><strong>RSI:</strong> &lt; 30 = oversold, &gt; 70 = overbought.</li>
+      <li><strong>Candlestick patterns:</strong> hammer / engulfing if you use pattern signals.</li>
+      <li><strong>Performance:</strong> Up over the last month or quarter (momentum screens).</li>
+    </ol>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHwT1oD22JFVs4RMoFocV-HBhQlsdgTDTYXNEhARWz6Px4Uafo_bVMD2HJlCjpV2RG_Q-ZiCX78GA-BbauUp7UV3QiNwV92liFFJnGklFehPYMs2X3n_dAl-tJXS76fqCNMOJpIg?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz technical filters example 1" />
+    </figure>
+
+    <figure class="wp-block-image">
+      <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrOCrFld2Q84Nc4LFNNAcElKH4dwZteAI1B38cPW_YKd-yEFw8JeIymSISqcxAduprc_WavIwFKkI-mh6OzfDLT6Tjs15FlnaKlARrPvFUw0m1LotG1MF9frtTgf7ninSuMW4g9w?key=EHal6qEyYjyaJ7OatsBxDXiW" alt="Finviz technical filters example 2" />
+    </figure>
+  </div>
+
+  <!-- COMBOS -->
+  <div class="fio-card">
+    <h3 class="fio-h3">4) Combining Filters for Different Strategies</h3>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Growth-Focused</h4>
+        <ul class="fio-list">
+          <li>P/E: Under 25</li>
+          <li>EPS Growth (Past 5Y): Over 15%</li>
+          <li>Price: Over $10</li>
+          <li>Average Volume: Over 500K</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Value-Focused</h4>
+        <ul class="fio-list">
+          <li>P/E: Under 15</li>
+          <li>PEG: Under 1.5</li>
+          <li>Debt/Equity: Under 0.5</li>
+          <li>Market Cap: Over $1B</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Momentum-Focused</h4>
+        <ul class="fio-list">
+          <li>Price above SMA50 and SMA200</li>
+          <li>Performance (Quarter): Up</li>
+          <li>Average Volume: Over 1M</li>
+          <li>RSI(14): 40–70 (trend, not overbought)</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="fio-p fio-note fio-muted" style="margin-top:12px;">
+      Bring 3–5 tickers from your screen to the Community Chat and we’ll help you tighten the setup.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Email Support</h3>
+        <p class="fio-p fio-note">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a><br/>
+          <span class="fio-muted">Typical response time: 24–48 hours (weekdays)</span>
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Your strategy (Growth / Value / Momentum)</li>
+          <li>Your exact Finviz filters (or screenshot)</li>
+          <li>3–5 tickers you’re considering</li>
+          <li>What trade you want to run (CSP / CC / spread)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
