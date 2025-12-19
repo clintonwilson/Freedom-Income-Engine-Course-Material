@@ -1,0 +1,276 @@
+<div style="max-width:920px; margin:0 auto; padding:8px 0; font-family:inherit;">
+
+  <!-- VIDEO -->
+  <div style="border-radius:16px; overflow:hidden; border:1px solid rgba(0,0,0,.10); background:#000;">
+    <div style="position:relative; width:100%; padding-top:56.25%; height:0;">
+      <iframe
+        src="https://player.vimeo.com/video/1099818709?h=f247c7edd6&badge=0&autopause=0&player_id=0&app_id=58479"
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- TITLE (SEO) -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h1 style="margin:0 0 6px 0; font-size:28px; line-height:1.2;">
+      1% Weekly Options Income Training (Timestamps + Notes)
+    </h1>
+    <p style="margin:0; font-size:15px; line-height:1.6; opacity:.9;">
+      This session answers real member questions and breaks down how Freedom Income Options approaches weekly income goals,
+      credit spreads, scanning, stock selection, small accounts, and risk management — all with timestamps so you can jump straight to what you need.
+    </p>
+  </div>
+
+  <!-- QUICK START -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 8px; font-size:20px; line-height:1.25;">Quick Start (2 Minutes)</h2>
+    <ol style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+      <li>Watch the video (or jump to the timestamp you need below).</li>
+      <li>Write down your weekly income goal + account size.</li>
+      <li>Follow the risk rules: small size, high-quality tickers, and don’t “defend” trades emotionally.</li>
+    </ol>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.12); background:rgba(0,0,0,.03);">
+    <p style="margin:0 0 8px; font-size:15px;"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+      <li><strong>Educational purposes only.</strong> Not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Nothing here is a recommendation to buy or sell any security.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past examples do not predict future results.</li>
+    </ul>
+  </div>
+
+  <!-- JUMP MENU -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Jump to a Section</h2>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:10px;">
+      <a href="#t-0000" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>00:00</strong> — Introduction
+      </a>
+      <a href="#t-0150" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>01:50</strong> — The 1% Weekly Income Strategy
+      </a>
+      <a href="#t-0732" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>07:32</strong> — Premium Strategy Tips
+      </a>
+      <a href="#t-1143" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>11:43</strong> — Scanning for Trades
+      </a>
+      <a href="#t-1253" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>12:53</strong> — Credit vs Debit Spreads
+      </a>
+      <a href="#t-1710" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>17:10</strong> — Managing Risk on Credit Spreads
+      </a>
+      <a href="#t-2027" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>20:27</strong> — Small Account Strategies
+      </a>
+      <a href="#t-2213" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>22:13</strong> — Credit Spreads for Small Accounts
+      </a>
+      <a href="#t-2536" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>25:36</strong> — Risk Management Recap
+      </a>
+      <a href="#t-2703" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>27:03</strong> — Picking the Best Stocks
+      </a>
+      <a href="#t-2819" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>28:19</strong> — Day Trading Options (Warning)
+      </a>
+      <a href="#t-3034" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>30:34</strong> — Recap of Covered Topics
+      </a>
+      <a href="#t-3103" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>31:03</strong> — The Freedom Number Tracker
+      </a>
+      <a href="#t-3423" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>34:23</strong> — Celebrating Progress
+      </a>
+      <a href="#t-3644" style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:14px; padding:12px; display:block;">
+        <strong>36:44</strong> — Open Q&amp;A
+      </a>
+    </div>
+  </div>
+
+  <!-- NOTES -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 12px 0; font-size:22px; line-height:1.2;">Training Notes With Timestamps</h2>
+
+    <!-- 00:00 -->
+    <div id="t-0000" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">00:00 — Introduction</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Session built from member questions + survey.</li>
+        <li>Covers: small accounts, 1% income, credit spreads, stock selection, and freedom number.</li>
+        <li>Plan: cover content and leave time for Q&amp;A.</li>
+      </ul>
+    </div>
+
+    <!-- 01:50 -->
+    <div id="t-0150" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">01:50 — The 1% Weekly Income Strategy</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Example account: $103K → Goal: $1,000/week.</li>
+        <li><strong>SoFi trade</strong>: 10 contracts @ $0.26 = $260.</li>
+        <li><strong>HOOD trade</strong>: 1 contract = $170.</li>
+        <li>Total: $430 so far, with buying power remaining to build multiple positions.</li>
+        <li><strong>Tip:</strong> Use multiple positions vs. going all-in on one trade.</li>
+      </ul>
+    </div>
+
+    <!-- 07:32 -->
+    <div id="t-0732" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">07:32 — Premium Strategy Tips</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>PLTR trade idea: $1.39 premium, requires ~$14K buying power.</li>
+        <li>Example sizing: 5 contracts → ~$680 credit using ~$66K buying power.</li>
+        <li>Combine trades to reach the 1% goal (don’t force one “hero” trade).</li>
+        <li>Going further out (60–70+ days) can increase credit and reduce time pressure.</li>
+        <li>Common approach: take 25–50% profit early to lock gains.</li>
+      </ul>
+    </div>
+
+    <!-- 11:43 -->
+    <div id="t-1143" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">11:43 — Scanning for Trades</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Tools: <strong>TrendSpider</strong>, <strong>FinViz</strong> (free).</li>
+        <li>Scan ideas: high implied volatility, above 200 MA, solid uptrends for higher probability.</li>
+      </ul>
+    </div>
+
+    <!-- 12:53 -->
+    <div id="t-1253" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">12:53 — Credit / Debit Spreads</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Credit spreads = faster income, higher leverage (requires discipline).</li>
+        <li>Example: PLTR spread — ~$2,400 capital for 10 contracts.</li>
+        <li>Keep risk small: commonly no more than ~5% of account per trade.</li>
+        <li>Focus on higher-quality names (example: indexes like QQQ).</li>
+      </ul>
+    </div>
+
+    <!-- 17:10 -->
+    <div id="t-1710" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">17:10 — Managing Risk on Credit Spreads</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Assume full loss is acceptable <em>only</em> if sizing is small.</li>
+        <li>If spread value drops to ~50% of original credit → close and consider reopening/rolling.</li>
+        <li>Example given: $2,300 credit → if worth ~$1,000, close and reopen another setup.</li>
+      </ul>
+    </div>
+
+    <!-- 20:27 -->
+    <div id="t-2027" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">20:27 — Small Account Strategies</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Tailored ideas for $100–$10,000 accounts.</li>
+        <li>Use mini ETFs (example: TSLL, NVDX, PLTU) to sell puts with lower capital.</li>
+        <li>Example: TSLL trade ~ $1,000 collateral for ~1% return.</li>
+        <li>Reminder: lower-priced names can carry higher risk — be selective.</li>
+      </ul>
+    </div>
+
+    <!-- 22:13 -->
+    <div id="t-2213" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">22:13 — Credit Spreads With Small Accounts</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Small spreads example: ~$330 to make ~$170.</li>
+        <li>Focus on indexes like QQQ for consistency.</li>
+        <li>Consider adding funds regularly (if possible) to grow capital over time.</li>
+      </ul>
+    </div>
+
+    <!-- 25:36 -->
+    <div id="t-2536" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">25:36 — Risk Management Recap</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>If a credit spread goes against you:</li>
+        <li style="list-style:none; margin-left:-18px;">
+          <ul style="margin:6px 0 0 18px; font-size:15px; line-height:1.6;">
+            <li>Option 1: accept full loss (if trade is small).</li>
+            <li>Option 2: close at ~50% loss and reopen another trade.</li>
+          </ul>
+        </li>
+        <li>Don’t defend aggressively — keep sizing small.</li>
+      </ul>
+    </div>
+
+    <!-- 27:03 -->
+    <div id="t-2703" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">27:03 — Picking the Best Stocks</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Use FinViz scanners to find stocks above 10/50/200 moving averages.</li>
+        <li>Look for strong uptrends (example mentioned: QQQ, TSLA with a base).</li>
+        <li>Comment: trending stocks produced consistent wins since April 21 (per session).</li>
+      </ul>
+    </div>
+
+    <!-- 28:19 -->
+    <div id="t-2819" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">28:19 — Day Trading Options (Warning)</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Not part of the core Freedom Income strategy.</li>
+        <li>Focus is 1% weekly income with limited screen time (about 1 hour/week).</li>
+        <li>Day trading is treated as a full-time job with higher risk and lower consistency.</li>
+      </ul>
+    </div>
+
+    <!-- 30:34 -->
+    <div id="t-3034" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">30:34 — Recap of Covered Topics</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>1% strategy</li>
+        <li>Credit spreads</li>
+        <li>Small account tactics</li>
+        <li>Stock selection</li>
+        <li>Day trading warning</li>
+      </ul>
+    </div>
+
+    <!-- 31:03 -->
+    <div id="t-3103" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">31:03 — The Freedom Number Tracker</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Spreadsheet to track income milestones and progress.</li>
+        <li>Inputs: weekly income goal + current account balance.</li>
+        <li>Outputs: % progress, estimated “freedom” date, monthly milestones (ex: $25/$50/$100 per week).</li>
+      </ul>
+    </div>
+
+    <!-- 34:23 -->
+    <div id="t-3423" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10); margin-bottom:12px;">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">34:23 — Celebrating Progress</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Track monthly achievements (example: hit $50/week in July).</li>
+        <li>Recognize growth fluctuates — consistency matters.</li>
+        <li>“Progress is encouragement.”</li>
+      </ul>
+    </div>
+
+    <!-- 36:44 -->
+    <div id="t-3644" style="padding:14px; border-radius:14px; border:1px solid rgba(0,0,0,.10);">
+      <h3 style="margin:0 0 8px 0; font-size:18px;">36:44 — Open Q&amp;A</h3>
+      <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+        <li>Asked for remaining questions.</li>
+        <li>Encouraged participation via mic or chat.</li>
+        <li>Mentioned doing another live session if members found it helpful.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- CTA / NEXT STEP -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 8px 0; font-size:20px; line-height:1.25;">Next Step</h2>
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      If you’re brand new, your only job is to understand the rules and risk.
+      Then move to the next lesson where we cover execution, position sizing, and trade management.
+    </p>
+  </div>
+
+</div>
