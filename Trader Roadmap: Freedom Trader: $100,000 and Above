@@ -1,0 +1,149 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-vimeo{position:relative;width:100%;padding-top:56.25%;height:0}
+  .fio-vimeo iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+  /* INLINE ICONS ONLY (NO EMOJIS) */
+  .fio-arrow,.fio-check{
+    display:inline-flex;
+    width:16px;height:16px;
+    transform:translateY(1px);
+    flex:0 0 auto;
+  }
+  .fio-arrow svg,.fio-check svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <div class="fio-vimeo">
+      <iframe
+        src="https://player.vimeo.com/video/1105317818?badge=0&autopause=0&player_id=0&app_id=58479"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="Freedom Trader"></iframe>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the lesson video above.</li>
+      <li>Download the PDF and skim the key rules.</li>
+      <li>If you’re new, post your account size + questions in the Community Chat.</li>
+      <li>Then continue to the next lesson and stay consistent.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Casey’s Channel
+      </a>
+
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l6 7-6 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Join Community Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- LESSON PDF -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Freedom Trader Lesson PDF</h1>
+    <p class="fio-p">
+      Download the PDF for the key rules, examples, and notes from this lesson.
+      Keep it open while you watch the video so you can follow along.
+    </p>
+
+    <p class="fio-p" style="margin-top:12px;">
+      <a class="fio-btn" href="https://freedomincomeoptions.com/wp-content/uploads/2025/08/Freedom-Trader.pdf">
+        <span class="fio-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v10m0 0l4-4m-4 4l-4-4M5 17h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <strong>Download the Lesson PDF</strong>
+      </a>
+    </p>
+
+    <p class="fio-p fio-note fio-muted">
+      Tip: If the PDF opens in a new tab, use your browser’s download button to save it.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Email Support</h3>
+        <p class="fio-p fio-note">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a><br/>
+          <span class="fio-muted">Typical response time: 24–48 hours (weekdays)</span>
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Your account size</li>
+          <li>What you’re trying to do (open / manage / close)</li>
+          <li>Ticker + expiration + strikes (if relevant)</li>
+          <li>What confused you in the PDF or video</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
