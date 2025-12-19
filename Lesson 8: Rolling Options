@@ -1,0 +1,392 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:20px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-divider{height:10px}
+  .fio-tablewrap{overflow:auto}
+  .fio-table{width:100%;border-collapse:collapse;font-size:14px}
+  .fio-table th{padding:10px;text-align:left;border-bottom:1px solid rgba(0,0,0,.12)}
+  .fio-table td{padding:10px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+  .fio-table tr:last-child td{border-bottom:0}
+  .fio-chip{display:inline-block;font-size:12px;padding:3px 8px;border-radius:999px;border:1px solid rgba(0,0,0,.12);opacity:.9}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+
+  /* ✅ INLINE CHECK ICON (prevents giant emoji rendering) */
+  .fio-check{
+    display:inline-flex;
+    width:16px;
+    height:16px;
+    margin-right:8px;
+    transform: translateY(2px);
+    flex:0 0 auto;
+  }
+  .fio-check svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- Video -->
+  <div class="fio-video">
+    <div class="sp-embed-player" data-id="cTeIDZn18l6">
+      <script src="https://go.screenpal.com/player/appearance/cTeIDZn18l6"></script>
+      <iframe
+        scrolling="no"
+        src="https://go.screenpal.com/player/cTeIDZn18l6?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Rolling Covered Calls</h1>
+    <p class="fio-p">
+      By the end of this lesson, you’ll understand <strong>when, why, and how</strong> to roll covered calls so you can
+      manage assignment risk, collect additional premium, and keep your plan structured.
+    </p>
+
+    <ol class="fio-list">
+      <li>Watch the lesson video (above).</li>
+      <li>Read the “When to Roll” decision rules below.</li>
+      <li>Use the “Roll Order Checklist” so you don’t miss steps.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      Rolling is a tool — not a requirement. Sometimes the best decision is to <strong>close</strong> the call and reset the plan.
+    </p>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">1) What Does “Rolling a Covered Call” Mean?</h2>
+    <p class="fio-p">
+      <strong>Rolling</strong> means you close your current covered call and open a new covered call (same stock) with a new strike,
+      a new expiration, or both — usually as a single “roll” order.
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Why people roll</h3>
+        <ul class="fio-list">
+          <li>Collect additional premium (more income)</li>
+          <li>Extend time (buy more time for the trade)</li>
+          <li>Adjust strike to manage assignment risk</li>
+          <li>Keep a structured plan instead of guessing</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Types of rolls (plain English)</h3>
+        <ul class="fio-list">
+          <li><strong>Roll out:</strong> same strike, later expiration</li>
+          <li><strong>Roll up and out:</strong> higher strike + later expiration</li>
+          <li><strong>Roll down and out:</strong> lower strike + later expiration</li>
+          <li><strong>Adjust expiration:</strong> move closer/farther based on premium and risk</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">2) When Should You Roll?</h2>
+    <p class="fio-p">
+      Here are the most common “roll situations.” Use these as decision rules — not emotions.
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">A) Call is ITM and assignment risk is rising</h3>
+        <ul class="fio-list">
+          <li>Stock moved above your strike</li>
+          <li>You still want to keep the shares</li>
+          <li>You want to shift to a higher strike and/or more time</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted">
+          Reality check: assignment isn’t “bad” if you’re okay selling at your strike. Rolling is optional.
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">B) Expiration is approaching</h3>
+        <ul class="fio-list">
+          <li>You want to avoid last-minute volatility surprises</li>
+          <li>You want to extend the trade and collect more premium</li>
+          <li>You prefer a cleaner weekly routine (instead of chaos on expiration day)</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">C) Premium is mostly “captured”</h3>
+        <ul class="fio-list">
+          <li>If the call has lost most of its value, you can consider closing it and selling a new one</li>
+          <li>This is how covered calls become repeatable income</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted">
+          Many traders use a profit target on the short call (example: buying it back after most of the premium is earned).
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">D) Volatility changed</h3>
+        <ul class="fio-list">
+          <li>Higher volatility can increase premiums (good for selling calls)</li>
+          <li>Lower volatility can reduce premium (you may choose fewer adjustments)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Roll vs. Close (Fast Rule)</h3>
+      <div class="fio-tablewrap">
+        <table class="fio-table" aria-label="Roll vs Close decision table">
+          <thead>
+            <tr>
+              <th>If you want…</th>
+              <th>Then consider…</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Keep shares + collect more premium</td>
+              <td><strong>Rolling</strong> (often up and out)</td>
+            </tr>
+            <tr>
+              <td>You’re okay selling at strike</td>
+              <td>Let it assign or <strong>close</strong> and reset</td>
+            </tr>
+            <tr>
+              <td>Stock looks weak / you don’t want more downside exposure</td>
+              <td><strong>Close</strong> and reduce risk (don’t force a roll)</td>
+            </tr>
+            <tr>
+              <td>You would have to pay a large net debit</td>
+              <td>Pause — rolling for a big debit needs a clear reason</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">3) How to Roll a Covered Call (Step-by-Step)</h2>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 1: Close the Existing Call</h3>
+      <ul class="fio-list">
+        <li>You <strong>buy to close</strong> the current short call</li>
+        <li>Use liquid strikes when possible (tighter bid/ask helps)</li>
+      </ul>
+      <p class="fio-p fio-note fio-muted">If spreads are wide, avoid rushing. Liquidity matters.</p>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 2: Choose the New Strike + Expiration</h3>
+      <ul class="fio-list">
+        <li><strong>Roll out</strong> to collect more premium and buy time</li>
+        <li><strong>Roll up and out</strong> if stock ran above your strike and you want more upside room</li>
+        <li><strong>Roll down and out</strong> only with a clear plan (can increase assignment risk sooner)</li>
+      </ul>
+
+      <div class="fio-divider"></div>
+      <p class="fio-p"><strong>Net credit vs. net debit:</strong></p>
+      <ul class="fio-list">
+        <li><strong>Net credit</strong> = you receive more premium on the new call than it costs to close the old call</li>
+        <li><strong>Net debit</strong> = it costs more to close the old call than you receive from the new call</li>
+      </ul>
+      <p class="fio-p fio-note fio-muted">
+        Many traders prefer rolling for a <strong>net credit</strong>. If you’re paying a debit, be clear why (more upside room, more time, avoiding assignment, etc.).
+      </p>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <div class="fio-mini">
+      <h3 class="fio-h3">Step 3: Place the Roll Order</h3>
+      <ul class="fio-list">
+        <li>Most brokers offer a “roll” ticket (it’s just close + open combined)</li>
+        <li>Double-check: <strong>same symbol</strong>, correct strike(s), correct expiration(s)</li>
+        <li>Confirm whether it’s a <strong>credit</strong> or <strong>debit</strong> before sending</li>
+      </ul>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <!-- ✅ FIXED: Inline SVG checks (NOT emoji) -->
+    <div class="fio-card fio-soft">
+      <h3 class="fio-h3">Roll Order Checklist (Copy/Paste)</h3>
+      <ul class="fio-list fio-note">
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I own 100 shares per covered call</li>
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I know my current strike + expiration</li>
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I know the new strike + expiration I’m choosing</li>
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I confirmed if the roll is a net credit or net debit</li>
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I’m okay with assignment risk on the new strike</li>
+        <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>I logged the new position details</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">4) Key Rolling Strategies</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">1) Rolling Up and Out <span class="fio-chip">More Upside Room</span></h3>
+        <ul class="fio-list">
+          <li>Best when the stock is trending up and you want to stay in the trade</li>
+          <li>You move to a higher strike and a later expiration</li>
+          <li>Goal: collect more premium while giving shares room to run</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">2) Rolling Out <span class="fio-chip">More Time</span></h3>
+        <ul class="fio-list">
+          <li>Best when the stock is near your strike and you want more time</li>
+          <li>Same strike, later expiration</li>
+          <li>Goal: collect additional premium and reduce “expiration week pressure”</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">3) Rolling Down and Out <span class="fio-chip">Risk Adjustment</span></h3>
+        <ul class="fio-list">
+          <li>Used when the stock dropped and you want to adjust income profile</li>
+          <li>Requires extra caution (can increase assignment risk if price rebounds)</li>
+          <li>Goal: rebuild premium, but don’t force it on weak stocks</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">4) Rolling Early vs. Late</h3>
+        <ul class="fio-list">
+          <li><strong>Early roll:</strong> calmer decisions, less chaos</li>
+          <li><strong>Late roll:</strong> more theta, but higher “event risk” near expiration</li>
+          <li>Goal: stay structured — avoid panic rolls</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">5) Common Mistakes to Avoid</h2>
+    <ul class="fio-list">
+      <li>Rolling too soon (without a clear reason)</li>
+      <li>Rolling too late (panic rolling during expiration volatility)</li>
+      <li>Paying a <strong>large net debit</strong> without a plan</li>
+      <li>Rolling on weak stocks that could continue dropping</li>
+      <li>Overcomplicating rolls when closing + resetting is cleaner</li>
+    </ul>
+  </div>
+
+  <!-- Section 6 -->
+  <div class="fio-card">
+    <h2 class="fio-h2">6) Live Example Checklist (Execution)</h2>
+    <p class="fio-p">Use this list during the video walkthrough:</p>
+    <ol class="fio-list">
+      <li>Identify current call (strike + expiration)</li>
+      <li>Confirm stock price vs strike (ITM/OTM)</li>
+      <li>Choose the “why” (more premium, more time, more upside room)</li>
+      <li>Select new strike + expiration</li>
+      <li>Confirm net credit / net debit before submitting</li>
+      <li>Place roll order and log new position</li>
+    </ol>
+  </div>
+
+  <!-- Section 7 (✅ FIXED inline checks inside sentence) -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Final Takeaways</h2>
+    <p class="fio-p">
+      <span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Rolling is a tool — not a rule.<br>
+      <span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Prefer a <strong>net credit</strong> when possible (unless you have a clear reason).<br>
+      <span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Use <strong>roll up and out</strong> when you want more upside room on a strong stock.<br>
+      <span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Use <strong>roll out</strong> when you want more time and more premium.<br>
+      <span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      Always ask: <strong>“Should I roll… or should I close and reset?”</strong>
+    </p>
+  </div>
+
+  <!-- Support -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Ticker + share count (confirm 100 shares)</li>
+          <li>Current strike + expiration</li>
+          <li>New strike + expiration you’re considering</li>
+          <li>Net credit or net debit (if you can see it)</li>
+          <li>Your goal (avoid assignment / collect more premium / more upside room)</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted">
+          Email support: <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
