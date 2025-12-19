@@ -1,0 +1,183 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width:720px){.fio-video iframe{height:360px}}
+  @media (max-width:460px){.fio-video iframe{height:280px}}
+
+  /* INLINE ICON SYSTEM (NO EMOJIS EVER) */
+  .fio-check,.fio-arrow{
+    display:inline-flex;
+    width:16px;
+    height:16px;
+    margin-right:8px;
+    transform:translateY(2px);
+    flex:0 0 auto;
+  }
+  .fio-check svg,.fio-arrow svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <iframe
+      src="https://go.screenpal.com/player/cTeFqlnij54?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+      allowfullscreen
+      scrolling="no"></iframe>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the video above.</li>
+      <li>Open the spreadsheet and make your own copy.</li>
+      <li>Enter your first trade in the Trade Log tab.</li>
+      <li>Ask questions in the Community Chat if anything is unclear.</li>
+    </ol>
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx"
+         style="padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none;">
+        Join Casey’s Channel
+      </a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx"
+         style="padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none;">
+        Join Community Chat
+      </a>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list">
+      <li>Educational purposes only — not financial advice.</li>
+      <li>Examples are for learning, not recommendations.</li>
+      <li>Options trading involves risk and is not suitable for everyone.</li>
+      <li>No guarantees — past performance does not predict future results.</li>
+    </ul>
+  </div>
+
+  <!-- TITLE -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Options Trading Spreadsheet (Trade Tracker + Income Dashboard)</h1>
+    <p class="fio-p">
+      This spreadsheet is how we stay structured. It tracks every trade, calculates profit and loss,
+      and shows whether you’re actually progressing toward replacing your income — <strong>1% at a time</strong>.
+    </p>
+  </div>
+
+  <!-- GET THE SPREADSHEET -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Get the Spreadsheet</h2>
+    <p class="fio-p">
+      <span class="fio-arrow">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12h14M13 5l6 7-6 7"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <a href="https://docs.google.com/spreadsheets/d/1H___7ru98QvicPHxe0frdLmpTtXeAb80IMVvFs8qRgE/edit?usp=sharing">
+        <strong>Click here to open the spreadsheet</strong>
+      </a>
+    </p>
+    <p class="fio-p" style="opacity:.85;">
+      Then select <strong>File → Make a copy</strong> so you can edit and save your trades.
+    </p>
+  </div>
+
+  <!-- RULES -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Rules That Prevent Spreadsheet Mistakes</h2>
+
+    <p class="fio-p">
+      <span class="fio-check">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Always make a copy first.
+    </p>
+
+    <p class="fio-p">
+      <span class="fio-check">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Only edit input cells — formulas calculate automatically.
+    </p>
+
+    <p class="fio-p">
+      <span class="fio-check">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      Trades must be marked <strong>Closed</strong> for totals to update.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> t.me/+8xk4f0TXHpFlYmUx</li>
+          <li><strong>Community Chat:</strong> t.me/+NPYR40enF_UzYWYx</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Email Support</h3>
+        <p class="fio-p">
+          <a href="mailto:support@freedomincomeoptions.com">
+            support@freedomincomeoptions.com
+          </a><br>
+          <span style="opacity:.85;">24–48 hour response (weekdays)</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Final Reminder</h2>
+    <p class="fio-p">
+      This spreadsheet isn’t about perfection — it’s about consistency.
+      Track every trade, review weekly, and let the data guide your decisions.
+    </p>
+  </div>
+
+</div>
