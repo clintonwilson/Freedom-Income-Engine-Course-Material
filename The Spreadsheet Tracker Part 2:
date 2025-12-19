@@ -1,0 +1,224 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+
+  /* INLINE ICON SYSTEM (NO EMOJIS EVER) */
+  .fio-check,.fio-arrow{
+    display:inline-flex;
+    width:16px;
+    height:16px;
+    margin-right:8px;
+    transform:translateY(2px);
+    flex:0 0 auto;
+  }
+  .fio-check svg,.fio-arrow svg{width:16px;height:16px;display:block}
+
+  /* Vimeo wrapper (keeps 16:9 responsive) */
+  .fio-vimeo{
+    position:relative;
+    width:100%;
+    padding-top:56.25%;
+    height:0;
+  }
+  .fio-vimeo iframe{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    border:0;
+  }
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <div class="fio-vimeo">
+      <iframe
+        src="https://player.vimeo.com/video/1100633012?title=0&byline=0&portrait=0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the video above (what it is + how to use it).</li>
+      <li>Open the tracker and make your own copy so your numbers save.</li>
+      <li>Enter your weekly goal, starting balance, and current balance.</li>
+      <li>Post a milestone in the Community Chat (optional — but it helps accountability).</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Freedom Number Tracker</h1>
+    <p class="fio-p">
+      This is a simple accountability tool to help you track progress as you work toward replacing your income
+      <strong>1% at a time</strong>.
+    </p>
+    <p class="fio-p fio-muted fio-note">
+      If you’ve ever wondered “Am I actually getting closer?” — this makes it visible.
+    </p>
+  </div>
+
+  <!-- WHAT IT DOES -->
+  <div class="fio-card">
+    <h2 class="fio-h2">What It Does</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Set a Weekly Income Goal</h3>
+        <p class="fio-p fio-note fio-muted">One number. Clear target. No guessing.</p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Track Your Balances</h3>
+        <p class="fio-p fio-note fio-muted">Starting balance + current balance so progress is measurable.</p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Auto-Estimates Your Path</h3>
+        <p class="fio-p fio-note fio-muted">Shows what account size and timeline may be needed to hit the goal.</p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Keeps You Consistent</h3>
+        <p class="fio-p fio-note fio-muted">Turns motivation into a weekly habit.</p>
+      </div>
+    </div>
+
+    <div style="height:10px"></div>
+
+    <p class="fio-p"><strong>Automatically shows:</strong></p>
+    <ul class="fio-list">
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Progress toward your income goal</li>
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Estimated account size needed</li>
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Estimated months to target</li>
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Estimated freedom date</li>
+    </ul>
+  </div>
+
+  <!-- BUILT-IN TRACKING -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Built-In Tracking</h2>
+    <ul class="fio-list">
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Chart your monthly account growth</li>
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Track your weekly income gains</li>
+      <li><span class="fio-check"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Celebrate progress with milestones</li>
+    </ul>
+  </div>
+
+  <!-- HOW TO USE -->
+  <div class="fio-card">
+    <h2 class="fio-h2">How to Use It</h2>
+    <ol class="fio-list">
+      <li>Fill in your weekly goal, starting balance, and current balance.</li>
+      <li>Update your numbers weekly (pick a day/time and make it a habit).</li>
+      <li>Watch your progress update automatically.</li>
+      <li>Share milestones in the Community Chat if you want accountability.</li>
+    </ol>
+
+    <p class="fio-p fio-muted fio-note">
+      The goal is simple: hold each other accountable and replace that paycheck one week at a time.
+    </p>
+  </div>
+
+  <!-- GET THE TRACKER -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Get the Tracker</h2>
+
+    <p class="fio-p">
+      <span class="fio-arrow">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M5 12h14M13 5l6 7-6 7"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <a href="https://docs.google.com/spreadsheets/d/1H___7ru98QvicPHxe0frdLmpTtXeAb80IMVvFs8qRgE/edit?usp=sharing">
+        <strong>Open the Google Sheet</strong>
+      </a>
+    </p>
+
+    <p class="fio-p fio-note fio-muted">
+      Then click <strong>File → Make a copy</strong> so you can edit and save your version.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Your weekly goal</li>
+          <li>Your starting balance + current balance</li>
+          <li>What looks “off” or what you want improved</li>
+        </ul>
+        <p class="fio-p fio-note fio-muted" style="margin-top:10px;">
+          Email support: <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
