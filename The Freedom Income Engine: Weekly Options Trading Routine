@@ -1,0 +1,383 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h2{margin:0 0 10px 0;font-size:24px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:20px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video-inner{position:relative;width:100%;padding-top:56.25%;height:0}
+  .fio-video-inner iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-divider{height:12px}
+  .fio-chip{display:inline-block;font-size:12px;padding:3px 8px;border-radius:999px;border:1px solid rgba(0,0,0,.12);opacity:.9}
+
+  /* Calendar */
+  .fio-cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;width:100%}
+  .fio-calhead{font-size:12px;letter-spacing:.04em;text-transform:uppercase;opacity:.7;padding:0 2px}
+  .fio-day{border:1px solid var(--fio-border);border-radius:14px;padding:12px;background:#fff;min-height:160px;min-width:0}
+  .fio-day h4{margin:0 0 6px 0;font-size:14px;line-height:1.25}
+  .fio-tag{display:inline-block;font-size:12px;padding:4px 8px;border-radius:999px;border:1px solid rgba(0,0,0,.12);opacity:.9;margin-bottom:8px;max-width:100%}
+  .fio-day ul{margin:0 0 0 16px;font-size:13px;line-height:1.45}
+  .fio-time{font-size:12px;opacity:.75;margin-top:8px}
+
+  @media (max-width: 980px){
+    .fio-cal{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .fio-calhead{display:none}
+    .fio-day{min-height:auto}
+  }
+  @media (max-width: 560px){
+    .fio-cal{grid-template-columns:1fr}
+  }
+
+  /* Tracker */
+  .fio-track{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .fio-task{
+    border:1px solid var(--fio-border);
+    border-radius:14px;
+    padding:12px;
+    background:#fff;
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    min-width:0;
+  }
+  .fio-task input[type="checkbox"]{
+    width:16px;height:16px;
+    margin-top:3px;
+    flex:0 0 auto;
+    accent-color: currentColor;
+  }
+  .fio-task-title{font-size:14px;line-height:1.35;margin:0}
+  .fio-task-sub{font-size:12px;line-height:1.35;opacity:.75;margin-top:4px}
+  .fio-task ul{margin:6px 0 0 16px;font-size:12.5px;line-height:1.4}
+  .fio-task strong{font-weight:700}
+  @media (max-width: 760px){.fio-track{grid-template-columns:1fr}}
+
+  /* Support grid */
+  .fio-help{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- Video -->
+  <div class="fio-video">
+    <div class="fio-video-inner">
+      <iframe
+        src="https://go.screenpal.com/player/cTelVCn1d0U?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"
+        scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Start Here: Your Weekly Options Routine</h2>
+    <p class="fio-p">
+      This page is your <strong>weekly routine</strong> for running the Freedom Income Engine.
+      The goal is simple: build skill, confidence, and consistency — <strong>1% at a time</strong>.
+    </p>
+    <ol class="fio-list">
+      <li>Watch the short video above (fast overview).</li>
+      <li>Join both Telegram channels (alerts, explanations, and community support).</li>
+      <li>Use the Calendar + Tracker below so you always know what to do next.</li>
+      <li><strong>Download your Weekly Options Routine PDF.</strong></li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+
+      <a class="fio-btn"
+         href="https://freedomincomeoptions.com/wp-content/uploads/2025/12/Weekly-Options-Routine.pdf"
+         target="_blank"
+         rel="noopener"
+         download
+         style="display:inline-flex;align-items:center;gap:6px;">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+          <path fill="currentColor"
+            d="M12 16.5 7 11.5l1.4-1.4L11 12.7V3h2v9.7l2.6-2.6L17 11.5zM5 19h14v2H5z">
+          </path>
+        </svg>
+        Your Weekly Options Routine PDF
+      </a>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      Pro tip: If you’re new, your only job this week is to follow the routine — not to “master options” overnight.
+    </p>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Nothing in this community, videos, or messages is a recommendation to buy or sell securities.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past examples or discussions do not guarantee future results.</li>
+      <li><strong>You are responsible.</strong> You are solely responsible for your position sizing and risk management.</li>
+    </ul>
+  </div>
+
+  <!-- Clear Intro (SEO-friendly) -->
+  <div class="fio-card">
+    <h3 class="fio-h3">What Is the Freedom Income Engine?</h3>
+    <p class="fio-p">
+      The <strong>Freedom Income Engine</strong> is a <strong>rule-based weekly options workflow</strong>.
+      It’s built for people who want a calm, repeatable routine — not constant screen time.
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Profit Stacking Blueprint <span class="fio-chip">Growth</span></h4>
+        <p class="fio-p fio-note">Structured compounding mindset with clear rules for position sizing and risk awareness.</p>
+      </div>
+      <div class="fio-mini">
+        <h4 class="fio-h4">Precision Income Trades <span class="fio-chip">Consistency</span></h4>
+        <p class="fio-p fio-note">Repeatable process designed for clean execution and steady weekly habits.</p>
+      </div>
+    </div>
+
+    <div class="fio-divider"></div>
+
+    <p class="fio-p">
+      The weekly rhythm is simple: <strong>scan → trade → quick check-ins → log → reset</strong>.
+      The routine is the “edge.”
+    </p>
+  </div>
+
+  <!-- Weekly Calendar -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Weekly Options Trading Calendar</h3>
+    <p class="fio-p">Use this as your weekly plan. Do the day’s task, log it, and move on.</p>
+
+    <div class="fio-cal">
+      <div class="fio-calhead">Sun</div><div class="fio-calhead">Mon</div><div class="fio-calhead">Tue</div><div class="fio-calhead">Wed</div><div class="fio-calhead">Thu</div><div class="fio-calhead">Fri</div><div class="fio-calhead">Sat</div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Strategic Scan</span>
+        <h4>Sunday</h4>
+        <ul>
+          <li>Run weekly scans</li>
+          <li>Check earnings/catalysts/volatility</li>
+          <li>Build “Approved Monday List”</li>
+          <li>Review Telegram notes</li>
+        </ul>
+        <div class="fio-time">Time: ~15 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Core Income Trade</span>
+        <h4>Monday</h4>
+        <ul>
+          <li>Pick best ticker from Approved List</li>
+          <li>Place 1 trade using system rules (ex: CSP)</li>
+          <li>Log trade (ticker, strikes, DTE, premium)</li>
+          <li>Check Telegram updates</li>
+        </ul>
+        <div class="fio-time">Time: ~15 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Management</span>
+        <h4>Tuesday</h4>
+        <ul>
+          <li>Quick health check on open trade</li>
+          <li>Confirm strike distance + trend</li>
+          <li>Verify your log is accurate</li>
+          <li>Check Telegram alerts</li>
+        </ul>
+        <div class="fio-time">Time: ~5 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Midweek Touch</span>
+        <h4>Wednesday</h4>
+        <ul>
+          <li>Quick position review</li>
+          <li>Watch volatility shifts</li>
+          <li>Update your log if needed</li>
+          <li>Check Telegram commentary</li>
+        </ul>
+        <div class="fio-time">Time: ~5 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Blueprint Day</span>
+        <h4>Thursday</h4>
+        <ul>
+          <li>Review major ETFs (SPY/QQQ/etc.)</li>
+          <li>Select Blueprint setup (if applicable)</li>
+          <li>Place trade + log it</li>
+          <li>Read official alert/notes</li>
+        </ul>
+        <div class="fio-time">Time: ~15 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Reset</span>
+        <h4>Friday</h4>
+        <ul>
+          <li>Review all positions</li>
+          <li>Close what you don’t want held</li>
+          <li>Capital check + update log</li>
+          <li>Read closing notes</li>
+        </ul>
+        <div class="fio-time">Time: ~5 minutes</div>
+      </div>
+
+      <div class="fio-day">
+        <span class="fio-tag">Optional</span>
+        <h4>Saturday</h4>
+        <ul>
+          <li>Optional early scan</li>
+          <li>Prep list if you prefer Saturday</li>
+          <li>Otherwise rest + reset</li>
+        </ul>
+        <div class="fio-time">Time: ~0–15 minutes</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weekly Execution Tracker -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Weekly Execution Tracker</h3>
+    <p class="fio-p">Use this checklist as your weekly “done list.” It keeps you consistent without overtrading.</p>
+
+    <div class="fio-track">
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-sun">
+        <div>
+          <p class="fio-task-title"><label for="fio-sun"><strong>Sunday:</strong> Scan + build Approved Monday List</label></p>
+          <div class="fio-task-sub">Goal: start prepared (not reactive).</div>
+          <ul>
+            <li>Run scans</li>
+            <li>Check earnings/catalysts/volatility</li>
+            <li>Save Approved Monday List</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-mon">
+        <div>
+          <p class="fio-task-title"><label for="fio-mon"><strong>Monday:</strong> Place 1 trade + log it</label></p>
+          <div class="fio-task-sub">Goal: execute cleanly from your Approved List.</div>
+          <ul>
+            <li>Choose best ticker</li>
+            <li>Place trade using rules</li>
+            <li>Log ticker, strikes, DTE, premium</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-tue">
+        <div>
+          <p class="fio-task-title"><label for="fio-tue"><strong>Tuesday:</strong> Position check</label></p>
+          <div class="fio-task-sub">Goal: stay calmly aware (no extra trades).</div>
+          <ul>
+            <li>Check strike distance + trend</li>
+            <li>Verify log accuracy</li>
+            <li>Review Telegram alerts</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-wed">
+        <div>
+          <p class="fio-task-title"><label for="fio-wed"><strong>Wednesday:</strong> Midweek touch</label></p>
+          <div class="fio-task-sub">Goal: confirm stability and move on.</div>
+          <ul>
+            <li>Quick review of positions</li>
+            <li>Watch volatility shifts</li>
+            <li>Update log if needed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-thu">
+        <div>
+          <p class="fio-task-title"><label for="fio-thu"><strong>Thursday:</strong> Blueprint Day + log</label></p>
+          <div class="fio-task-sub">Goal: stack momentum with defined rules.</div>
+          <ul>
+            <li>Select setup (if applicable)</li>
+            <li>Place trade + log it</li>
+            <li>Read official alert/notes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fio-task">
+        <input type="checkbox" id="fio-fri">
+        <div>
+          <p class="fio-task-title"><label for="fio-fri"><strong>Friday:</strong> Closeout + reset</label></p>
+          <div class="fio-task-sub">Goal: end the week clean and in control.</div>
+          <ul>
+            <li>Close what you don’t want held</li>
+            <li>Capital check + update log</li>
+            <li>Read closing notes</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Support (Upgraded) -->
+  <div class="fio-card">
+    <h3 class="fio-h3">Support & Community</h3>
+
+    <div class="fio-help">
+      <div class="fio-mini">
+        <h4 class="fio-h4">Telegram Links</h4>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">If You Need Help</h4>
+        <p class="fio-p fio-note">Post in the Community Chat or email support with:</p>
+        <ul class="fio-list fio-note">
+          <li>Ticker</li>
+          <li>Expiration (date)</li>
+          <li>Strike(s)</li>
+          <li>Premium received</li>
+          <li>What you want to do (open / manage / close)</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h4 class="fio-h4">Email Support</h4>
+        <p class="fio-p fio-note"><a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a></p>
+        <p class="fio-p fio-note fio-muted">Typical response time: 24–48 hours (weekdays).</p>
+      </div>
+    </div>
+  </div>
+
+</div>
