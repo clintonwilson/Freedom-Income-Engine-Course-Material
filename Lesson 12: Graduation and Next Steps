@@ -1,0 +1,222 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.14);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-soft-2: rgba(0,0,0,.05);
+
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{
+    max-width:920px;
+    margin:0 auto;
+    padding:8px 0;
+    font-family:inherit;
+  }
+
+  .fio-card{
+    margin-top:16px;
+    padding:var(--fio-pad);
+    border-radius:var(--fio-radius);
+    border:1px solid var(--fio-border);
+    background:#fff;
+  }
+
+  .fio-soft{
+    background:var(--fio-soft);
+    border-color:var(--fio-border-strong);
+  }
+
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+
+  .fio-p{
+    margin:0 0 10px 0;
+    font-size:var(--fio-text);
+    line-height:var(--fio-line);
+  }
+
+  .fio-note{
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .fio-muted{opacity:.85}
+
+  .fio-list{
+    margin:0 0 0 18px;
+    font-size:var(--fio-text);
+    line-height:var(--fio-line);
+  }
+
+  .fio-grid2{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:12px;
+  }
+
+  .fio-mini{
+    border:1px solid var(--fio-border);
+    border-radius:var(--fio-radius);
+    padding:14px;
+    background:#fff;
+  }
+
+  /* Video */
+  .fio-video{
+    border-radius:14px;
+    overflow:hidden;
+    border:1px solid rgba(0,0,0,.08);
+    background:#000;
+  }
+
+  .fio-video iframe{
+    width:100%;
+    height:520px;
+    border:0;
+    display:block;
+  }
+
+  @media (max-width:720px){
+    .fio-video iframe{height:360px}
+  }
+  @media (max-width:460px){
+    .fio-video iframe{height:280px}
+  }
+
+  /* Buttons – neutral white */
+  .fio-btnrow{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:12px;
+  }
+
+  .fio-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    max-width:520px;
+    padding:14px 18px;
+    border-radius:14px;
+    font-weight:800;
+    font-size:17px;
+    line-height:1.2;
+    text-decoration:none;
+    color:#000;
+    background:#fff;
+    border:1px solid var(--fio-border-strong);
+  }
+
+  .fio-btn:hover{
+    background:var(--fio-soft-2);
+  }
+</style>
+
+<div class="fio-wrap">
+
+  <!-- HERO -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Your Next Step: 1-on-1 Income Acceleration Call</h1>
+
+    <p class="fio-p" style="font-weight:700;font-size:16px;">
+      You’ve learned the rules. Now let’s apply them with confidence.
+    </p>
+
+    <p class="fio-p">
+      After completing the <strong>Freedom Income Engine</strong>, you earn a private
+      <strong>1-on-1 Strategy Call</strong>. This is not a sales call — it’s a focused check-in to build a
+      <strong>clear, executable plan</strong> for consistent, rule-based income.
+    </p>
+  </div>
+
+  <!-- VIDEO -->
+  <div class="fio-card">
+    <div class="fio-video">
+      <div class="sp-embed-player" data-id="cTeobun1WqW">
+        <script src="https://go.screenpal.com/player/appearance/cTeobun1WqW"></script>
+        <iframe
+          scrolling="no"
+          src="https://go.screenpal.com/player/cTeobun1WqW?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+          allowfullscreen="true"></iframe>
+      </div>
+    </div>
+
+    <p class="fio-note fio-muted" style="margin-top:10px;">
+      Watch once fully, then re-watch and note your biggest questions.
+    </p>
+  </div>
+
+  <!-- WHAT WE DO -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">What We’ll Do On The Call</h2>
+    <ul class="fio-list">
+      <li>Review your progress and rule execution</li>
+      <li>Refine your strategy based on account size and risk limits</li>
+      <li>Define clear next steps so you can trade consistently</li>
+    </ul>
+
+    <p class="fio-note fio-muted">
+      If anything is slowing your momentum, we’ll identify it and fix it together.
+    </p>
+  </div>
+
+  <!-- BOOKING -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Schedule Your Strategy Session</h2>
+    <p class="fio-note fio-muted">
+      Choose a time that works for you. If you don’t see availability, contact support.
+    </p>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://calendly.com/caseystubbs">
+        Book Your 1-on-1 Income Roadmap Call →
+      </a>
+
+      <a class="fio-btn" href="mailto:support@freedomincomeoptions.com">
+        Email Support
+      </a>
+    </div>
+  </div>
+
+  <!-- FIT -->
+  <div class="fio-card fio-soft">
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">This Call Is For You If You</h3>
+        <ul class="fio-list">
+          <li>Finished the program and want a clear next step</li>
+          <li>Want accountability and a structured plan</li>
+          <li>Are serious about rule-based income</li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">This Call Is Not For</h3>
+        <ul class="fio-list">
+          <li>Get-rich-quick seekers</li>
+          <li>Anyone unwilling to follow risk rules</li>
+          <li>Signal-only traders</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure</strong></p>
+    <ul class="fio-list fio-note">
+      <li>Educational purposes only</li>
+      <li>Not financial or investment advice</li>
+      <li>Trading involves risk</li>
+      <li>No guarantees of results</li>
+    </ul>
+  </div>
+
+</div>
