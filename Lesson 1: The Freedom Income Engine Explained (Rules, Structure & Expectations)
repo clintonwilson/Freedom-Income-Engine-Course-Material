@@ -1,0 +1,169 @@
+<div style="max-width:920px; margin:0 auto; padding:6px 0; font-family:inherit;">
+
+  <!-- Responsive Video -->
+  <div style="border-radius:16px; overflow:hidden; border:1px solid rgba(0,0,0,.10); background:#000;">
+    <div style="position:relative; width:100%; padding-top:56.25%; height:0;">
+      <iframe
+        src="https://go.screenpal.com/player/cTelVCn1d0U?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+        allowfullscreen="true"
+        scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 8px; font-size:18px; line-height:1.25;">Quick Start (3 Minutes)</h3>
+    <ol style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+      <li>Watch the short video above.</li>
+      <li>Join both Telegram channels (alerts, explanations, and community support).</li>
+      <li>Continue to Lesson 2 to learn the rules behind the system.</li>
+    </ol>
+
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+      <a href="https://t.me/+8xk4f0TXHpFlYmUx"
+         style="padding:10px 14px; border-radius:12px; border:1px solid rgba(0,0,0,.12); text-decoration:none;">
+        Join Casey’s Channel
+      </a>
+      <a href="https://t.me/+NPYR40enF_UzYWYx"
+         style="padding:10px 14px; border-radius:12px; border:1px solid rgba(0,0,0,.12); text-decoration:none;">
+        Join Community Chat
+      </a>
+    </div>
+
+    <div style="height:10px;"></div>
+    <p style="margin:0; font-size:14px; line-height:1.55; opacity:.9;">
+      Tip: If you’re brand new, don’t try to “learn everything today.” Just focus on understanding the rules and how we manage risk.
+    </p>
+  </div>
+
+  <!-- Disclaimer -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.12); background:rgba(0,0,0,.03);">
+    <p style="margin:0 0 8px; font-size:15px;"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul style="margin:0 0 0 18px; font-size:14px; line-height:1.55;">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Nothing in this community, course content, or messages is a recommendation to buy or sell securities.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past examples or discussions do not predict future results.</li>
+      <li><strong>You are responsible.</strong> You are solely responsible for your decisions, sizing, and risk management.</li>
+    </ul>
+  </div>
+
+  <!-- SECTION CARD: What This Is -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h2 style="margin:0 0 10px 0; font-size:22px; line-height:1.2;">What Freedom Income Options Is (In Plain English)</h2>
+
+    <p style="margin:0 0 10px 0; font-size:15px; line-height:1.6;">
+      <strong>Freedom Income Options</strong> is a community built around one belief: trading works best when it’s
+      <strong>rule-based, repeatable, and calm</strong> — not emotional, random, or screen-addictive.
+    </p>
+
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      The goal isn’t to “hit home runs.” The goal is to build skill, discipline, and consistency over time — so you can work toward
+      <strong>financial freedom 1% at a time</strong>.
+    </p>
+  </div>
+
+  <!-- SECTION CARD: What the “Income Engine” Means -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">What the “Income Engine” Actually Means</h3>
+
+    <p style="margin:0 0 12px 0; font-size:15px; line-height:1.6;">
+      The <strong>Freedom Income Engine</strong> is our structured process for building weekly options income using two complementary approaches:
+      one focused on <strong>growth</strong>, and one focused on <strong>consistency</strong>.
+    </p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px; line-height:1.25;">1) Profit Stacking Blueprint (Growth-Focused)</h4>
+        <p style="margin:0; font-size:14px; line-height:1.55;">
+          Designed for members who want to grow their account using a <strong>structured compounding mindset</strong> —
+          with clear rules around position sizing and risk.
+        </p>
+      </div>
+
+      <div style="border:1px solid rgba(0,0,0,.10); border-radius:16px; padding:14px; background:#fff;">
+        <h4 style="margin:0 0 8px 0; font-size:16px; line-height:1.25;">2) Precision Income Trades (Consistency-Focused)</h4>
+        <p style="margin:0; font-size:14px; line-height:1.55;">
+          Designed for clarity and repeatability — the type of process you can run without staring at charts all day.
+          This is the <strong>foundation layer</strong> that helps you stay disciplined.
+        </p>
+      </div>
+
+    </div>
+
+    <div style="height:12px;"></div>
+
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+      When combined correctly, the goal is a system that becomes <strong>more consistent over time</strong> as your execution improves —
+      without overleveraging, revenge trading, or chasing.
+    </p>
+  </div>
+
+  <!-- SECTION CARD: Support & Community -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Support & Community</h3>
+
+    <ul style="margin:0 0 0 18px; font-size:15px; line-height:1.6;">
+      <li><strong>Trade ideas & explanations (Casey’s channel):</strong>
+        <a href="https://t.me/+8xk4f0TXHpFlYmUx">https://t.me/+8xk4f0TXHpFlYmUx</a>
+      </li>
+      <li><strong>Questions & discussion (Community chat):</strong>
+        <a href="https://t.me/+NPYR40enF_UzYWYx">https://t.me/+NPYR40enF_UzYWYx</a>
+      </li>
+      <li><strong>Email support (all support questions):</strong>
+        <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a>
+      </li>
+    </ul>
+
+    <div style="height:10px;"></div>
+    <p style="margin:0; font-size:14px; line-height:1.55; opacity:.9;">
+      When asking for help, include: ticker, expiration, strikes, and what you’re trying to accomplish. The clearer the question, the faster we can help.
+    </p>
+  </div>
+
+  <!-- SECTION CARD: Broker Recommendations -->
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 10px 0; font-size:20px; line-height:1.25;">Broker Recommendations (Optional)</h3>
+
+    <div style="padding:14px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+      <p style="margin:0 0 8px; font-size:15px; line-height:1.5;">
+        <strong>Optional:</strong> Use any broker you prefer. These links are provided for convenience only.
+      </p>
+      <p style="margin:0; font-size:14px; line-height:1.55;">
+        <strong>Affiliate / Referral Disclosure:</strong> Some links may provide us a referral benefit if you choose to open an account through them.
+        This does not affect the education provided in this program.
+      </p>
+    </div>
+
+    <div style="height:12px;"></div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+
+      <a href="https://join.robinhood.com/caseys461"
+         target="_blank"
+         rel="noopener"
+         style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:16px; padding:14px; background:#fff; display:block;">
+        <strong style="font-size:15px;">Robinhood</strong><br/>
+        <span style="font-size:14px; opacity:.85;">Referral link (new accounts may qualify for a bonus)</span>
+      </a>
+
+      <a href="https://open.tastytrade.com/signup?referralCode=TC63JKPCQB"
+         target="_blank"
+         rel="noopener"
+         style="text-decoration:none; border:1px solid rgba(0,0,0,.12); border-radius:16px; padding:14px; background:#fff; display:block;">
+        <strong style="font-size:15px;">tastytrade</strong><br/>
+        <span style="font-size:14px; opacity:.85;">Referral link (popular with options traders)</span>
+      </a>
+
+    </div>
+  </div>
+
+  <div style="margin-top:16px; padding:16px; border-radius:16px; border:1px solid rgba(0,0,0,.10); background:#fff;">
+    <h3 style="margin:0 0 8px 0; font-size:20px; line-height:1.25;"></h3>
+    <p style="margin:0; font-size:15px; line-height:1.6;">
+    </p>
+  </div>
+
+</div>
