@@ -1,0 +1,354 @@
+<style>
+  :root{
+    --fio-border: rgba(0,0,0,.10);
+    --fio-border-strong: rgba(0,0,0,.12);
+    --fio-soft: rgba(0,0,0,.03);
+    --fio-radius: 16px;
+    --fio-pad: 16px;
+    --fio-text: 15px;
+    --fio-line: 1.6;
+  }
+
+  .fio-wrap{max-width:920px;margin:0 auto;padding:6px 0;font-family:inherit}
+  .fio-card{margin-top:16px;padding:var(--fio-pad);border-radius:var(--fio-radius);border:1px solid var(--fio-border);background:#fff}
+  .fio-soft{background:var(--fio-soft);border-color:var(--fio-border-strong)}
+  .fio-h1{margin:0 0 10px 0;font-size:26px;line-height:1.15}
+  .fio-h2{margin:0 0 10px 0;font-size:22px;line-height:1.2}
+  .fio-h3{margin:0 0 10px 0;font-size:18px;line-height:1.25}
+  .fio-h4{margin:0 0 8px 0;font-size:16px;line-height:1.25}
+  .fio-p{margin:0 0 10px 0;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-p:last-child{margin-bottom:0}
+  .fio-list{margin:0 0 0 18px;font-size:var(--fio-text);line-height:var(--fio-line)}
+  .fio-note{font-size:14px;line-height:1.55}
+  .fio-muted{opacity:.85}
+  .fio-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+  .fio-mini{border:1px solid var(--fio-border);border-radius:var(--fio-radius);padding:14px;background:#fff}
+  .fio-btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .fio-btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid rgba(0,0,0,.12);text-decoration:none}
+  .fio-divider{height:10px}
+
+  .fio-video{border-radius:var(--fio-radius);overflow:hidden;border:1px solid var(--fio-border);background:#000}
+  .fio-video iframe{width:100%;height:520px;border:0;display:block}
+  @media (max-width: 720px){.fio-video iframe{height:360px}}
+  @media (max-width: 460px){.fio-video iframe{height:280px}}
+
+  .fio-tablewrap{overflow:auto}
+  .fio-table{width:100%;border-collapse:collapse;font-size:14px}
+  .fio-table th{padding:10px;text-align:left;border-bottom:1px solid rgba(0,0,0,.12);white-space:nowrap}
+  .fio-table td{padding:10px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+  .fio-table tr:last-child td{border-bottom:0}
+
+  /* INLINE ICONS ONLY (NO EMOJIS) */
+  .fio-check,.fio-bolt,.fio-compass{
+    display:inline-flex;
+    width:16px;height:16px;
+    margin-right:8px;
+    transform:translateY(2px);
+    flex:0 0 auto;
+  }
+  .fio-check svg,.fio-bolt svg,.fio-compass svg{width:16px;height:16px;display:block}
+</style>
+
+<div class="fio-wrap">
+
+  <!-- VIDEO -->
+  <div class="fio-video">
+    <div class="sp-embed-player" data-id="cTfXcqnjbMU">
+      <script src="https://go.screenpal.com/player/appearance/cTfXcqnjbMU"></script>
+      <iframe
+        scrolling="no"
+        src="https://go.screenpal.com/player/cTfXcqnjbMU?width=100%25&height=100%25&ff=1&title=0&bg=transparent&embedded=1"
+        allowfullscreen="true"></iframe>
+    </div>
+  </div>
+
+  <!-- QUICK START -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Quick Start (3 Minutes)</h2>
+    <ol class="fio-list">
+      <li>Watch the lesson video (above).</li>
+      <li>Use the <strong>70/30 split</strong>: 70% Precision Income + 30% Profit Stacking.</li>
+      <li>Choose your weekly withdrawal rule: <strong>10–20% of profits</strong> (optional).</li>
+      <li>If you’re unsure, post your account size + question in the Community Chat.</li>
+    </ol>
+
+    <div class="fio-btnrow">
+      <a class="fio-btn" href="https://t.me/+8xk4f0TXHpFlYmUx">Join Casey’s Channel</a>
+      <a class="fio-btn" href="https://t.me/+NPYR40enF_UzYWYx">Join Community Chat</a>
+    </div>
+
+    <div class="fio-divider"></div>
+    <p class="fio-p fio-note fio-muted">
+      This strategy is built for members who want steady growth while beginning to take income withdrawals.
+    </p>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="fio-card fio-soft">
+    <p class="fio-p"><strong>Important Disclosure / Disclaimer</strong></p>
+    <ul class="fio-list fio-note">
+      <li><strong>Educational purposes only.</strong> This is not financial, legal, or tax advice.</li>
+      <li><strong>Not investment advice.</strong> Examples are for learning, not recommendations.</li>
+      <li><strong>Trading involves risk.</strong> Options trading can result in losses and is not suitable for everyone.</li>
+      <li><strong>No guarantees.</strong> Past results do not predict future performance.</li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <div class="fio-card">
+    <h1 class="fio-h1">Momentum Trader Strategy (Intermediate)</h1>
+    <p class="fio-p">
+      For accounts <strong>$50,000–$100,000</strong>. This plan is designed for
+      <strong>consistent growth</strong> while allowing <strong>income withdrawals</strong> without blowing up compounding.
+    </p>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Account Range</h3>
+        <p class="fio-p"><strong>$50,000–$100,000</strong></p>
+      </div>
+      <div class="fio-mini">
+        <h3 class="fio-h3">Time Commitment</h3>
+        <p class="fio-p"><strong>1 hour per week</strong></p>
+      </div>
+      <div class="fio-mini">
+        <h3 class="fio-h3">Designed For</h3>
+        <p class="fio-p"><strong>Growth + controlled withdrawals</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEET SARAH -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Meet Sarah</h2>
+    <p class="fio-p">
+      Sarah is 42. After growing her account past $50K, she’s ready to
+      <strong>balance compounding with real income</strong>. She’s not trying to escape the grind anymore —
+      she’s building long-term financial independence with a repeatable system.
+    </p>
+  </div>
+
+  <!-- THE PLAN -->
+  <div class="fio-card">
+    <h2 class="fio-h2">The Plan</h2>
+    <p class="fio-p">
+      Sarah follows a <strong>disciplined 2-trade-per-week system</strong> optimized for larger accounts and lower risk.
+    </p>
+
+    <div class="fio-tablewrap">
+      <table class="fio-table" aria-label="Momentum Trader plan table">
+        <thead>
+          <tr>
+            <th>Strategy</th>
+            <th>Day</th>
+            <th>Focus</th>
+            <th>Allocation</th>
+            <th>Reference</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="fio-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <strong>Precision Income</strong>
+            </td>
+            <td><strong>Monday</strong></td>
+            <td>Stable Weekly Income</td>
+            <td><strong>70%</strong></td>
+            <td><em>Taught in the “Precision Income Strategy” module</em></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="fio-bolt" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h7l-1 8 12-14h-7l-1-6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+              </span>
+              <strong>Profit Stacking Blueprint</strong>
+            </td>
+            <td><strong>Thursday</strong></td>
+            <td>Moderate Compounding</td>
+            <td><strong>30%</strong></td>
+            <td><em>Step-by-step inside the “Profit Stacking Blueprint” module</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- PRECISION INCOME -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Precision Income (70%)</h2>
+    <p class="fio-p"><strong>Goal:</strong> Build consistent, dependable weekly income</p>
+
+    <ul class="fio-list">
+      <li><strong>When:</strong> Every <strong>Monday</strong></li>
+      <li><strong>Setup:</strong> 1 trade per week using <strong>cash-secured puts</strong> or <strong>credit spreads</strong></li>
+      <li><strong>Instruments:</strong> SPY, QQQ, IWM, DIA</li>
+      <li><strong>Capital Used:</strong> 70% of account</li>
+      <li><strong>Expected Weekly Return:</strong> ~1.5%</li>
+      <li><strong>Withdrawal Plan:</strong> Pull 10–20% of profits weekly (optional)</li>
+      <li><strong>Execution Time:</strong> ~30 minutes/week</li>
+    </ul>
+
+    <p class="fio-p fio-note fio-muted">
+      Full details are taught in the “Precision Income Strategy” section of the course.
+    </p>
+  </div>
+
+  <!-- PROFIT STACKING -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Profit Stacking Blueprint (30%)</h2>
+    <p class="fio-p"><strong>Goal:</strong> Continue moderate compounding with defined risk</p>
+
+    <ul class="fio-list">
+      <li><strong>When:</strong> Every <strong>Thursday</strong></li>
+      <li><strong>Setup:</strong> 1 trade using <strong>iron condors</strong>, <strong>diagonals</strong>, or <strong>debit spreads</strong></li>
+      <li><strong>Instruments:</strong> SPY, QQQ, IWM, DIA</li>
+      <li><strong>Capital Used:</strong> 30% of account</li>
+      <li><strong>Risk per Trade:</strong> 3–5% of account</li>
+      <li><strong>Expected Return:</strong> ~25% on winners</li>
+      <li><strong>Win Rate:</strong> Historically ~87%</li>
+      <li><strong>Execution Time:</strong> ~30 minutes/week</li>
+    </ul>
+
+    <p class="fio-p fio-note fio-muted">
+      You’ll master this inside the “Profit Stacking Blueprint” section of the course.
+    </p>
+  </div>
+
+  <!-- CONTRIBUTION PLAN -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Weekly Contribution Plan</h2>
+    <p class="fio-p">Sarah still adds <strong>$200 per week</strong> to support long-term compounding.</p>
+
+    <figure style="margin:0;">
+      <img
+        src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdk-ky5E1yfSq0TLBxcezFgRTWOH0qDwv9TxPp7U63Q5WDv8yff8NCepK6DAGX4jWiQFpm2Ali0CFlGV_5iwt02Y1qnBB_z-rBGIT-1oefI_TrKavD5I17uq1nAZJ2pFpAQ5Kwl?key=EHal6qEyYjyaJ7OatsBxDXiW"
+        alt="Weekly contribution plan chart"
+        style="width:100%;height:auto;border:1px solid rgba(0,0,0,.10);border-radius:16px;display:block;"
+      />
+    </figure>
+  </div>
+
+  <!-- FINANCIAL SHIFT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Financial Shift: Stability First</h2>
+    <p class="fio-p">Sarah’s mindset is evolving:</p>
+    <ul class="fio-list">
+      <li><strong>From:</strong> Grow fast at all costs</li>
+      <li><strong>To:</strong> Create stable trading income I can rely on</li>
+      <li>Balance growth with <strong>occasional withdrawals</strong> to reward progress and build lifestyle freedom</li>
+    </ul>
+  </div>
+
+  <!-- GROWTH SUMMARY -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Account Growth with Contributions + Withdrawals</h2>
+    <p class="fio-p">The chart below shows Sarah’s journey from $50,000 over 1 year using:</p>
+    <ul class="fio-list">
+      <li>Weekly contributions</li>
+      <li>70/30 strategy split</li>
+      <li>Realistic profits and drawdowns</li>
+    </ul>
+
+    <div class="fio-divider"></div>
+
+    <figure style="margin:0;">
+      <img
+        src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcF2uSmgQ6uL9hfVWsKSPpr34DAKSgfte9CDTjfWWBWa70UkK9xFNfvqczbYKjfp9AdAASlg05zk9b5wM-txzw6QDuqxxGmxcdRJ9oNAz5tfu7BzQtHvG_QqsyqKHAt04oHIu9Whg?key=EHal6qEyYjyaJ7OatsBxDXiW"
+        alt="Account growth chart with contributions and withdrawals"
+        style="width:100%;height:auto;border:1px solid rgba(0,0,0,.10);border-radius:16px;display:block;"
+      />
+    </figure>
+  </div>
+
+  <!-- WHY THIS WORKS -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Why This Strategy Works</h2>
+    <ol class="fio-list">
+      <li><strong>Defined routine</strong> (Monday + Thursday — no guesswork)</li>
+      <li><strong>Simple execution</strong> (top ETFs only, no random tickers)</li>
+      <li><strong>Built-in risk control</strong> (3–5% defined-risk sizing on growth trades)</li>
+      <li><strong>Backed by results</strong> (historical win rate shared in the module)</li>
+      <li><strong>Withdrawals without sabotage</strong> (10–20% of profits keeps compounding alive)</li>
+    </ol>
+  </div>
+
+  <!-- WEEKLY SCHEDULE -->
+  <div class="fio-card fio-soft">
+    <h2 class="fio-h2">Weekly Schedule</h2>
+    <div class="fio-tablewrap">
+      <table class="fio-table" aria-label="Weekly schedule table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Task</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Place <strong>Precision Income</strong> trade</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Place <strong>Profit Stacking</strong> trade</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td>Weekend</td>
+            <td>Optional review + journal</td>
+            <td>15 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- FINAL -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Next Step</h2>
+    <p class="fio-p">
+      Keep executing the plan weekly. The goal is simple: build stable income, grow steadily, and start paying yourself
+      without losing momentum.
+    </p>
+  </div>
+
+  <!-- SUPPORT -->
+  <div class="fio-card">
+    <h2 class="fio-h2">Support & Community</h2>
+
+    <div class="fio-grid2">
+      <div class="fio-mini">
+        <h3 class="fio-h3">Telegram</h3>
+        <ul class="fio-list">
+          <li><strong>Casey’s Channel:</strong> <a href="https://t.me/+8xk4f0TXHpFlYmUx">t.me/+8xk4f0TXHpFlYmUx</a></li>
+          <li><strong>Community Chat:</strong> <a href="https://t.me/+NPYR40enF_UzYWYx">t.me/+NPYR40enF_UzYWYx</a></li>
+        </ul>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Email Support</h3>
+        <p class="fio-p fio-note">
+          <a href="mailto:support@freedomincomeoptions.com">support@freedomincomeoptions.com</a><br/>
+          <span class="fio-muted">Typical response time: 24–48 hours (weekdays)</span>
+        </p>
+      </div>
+
+      <div class="fio-mini">
+        <h3 class="fio-h3">Ask for Help (Fast)</h3>
+        <p class="fio-p fio-note">Include:</p>
+        <ul class="fio-list fio-note">
+          <li>Your account size</li>
+          <li>Which day/trade you’re placing (Monday or Thursday)</li>
+          <li>Ticker + expiration + strikes</li>
+          <li>What you want to do (open / manage / close)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
